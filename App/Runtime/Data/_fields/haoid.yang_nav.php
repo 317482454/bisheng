@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"nav_id";i:1;s:8:"nav_name";i:2;s:5:"nav_e";i:3;s:7:"nav_url";i:4;s:6:"cat_id";s:3:"_pk";s:6:"nav_id";s:5:"_type";a:5:{s:6:"nav_id";s:7:"int(32)";s:8:"nav_name";s:11:"varchar(32)";s:5:"nav_e";s:11:"varchar(32)";s:7:"nav_url";s:11:"varchar(64)";s:6:"cat_id";s:11:"varchar(32)";}}

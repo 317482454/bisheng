@@ -1,0 +1,340 @@
+[ 2016-09-09T12:00:18+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yang_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yang_dividend_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_article_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_orders` [ RunTime:0.0560s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `yang_currency` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_flash` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yang_flash` ORDER BY sort LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_trade` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473350400 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393618-60*60*24 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393618-60*60*24*7 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393618-60*60*24 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num*price) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393618-60*60*24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'buy' AND `status` IN (0,1) ORDER BY price desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'sell' AND `status` IN (0,1) ORDER BY price asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `yang_trade` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_link` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yang_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yang_issue` [ RunTime:0.0350s ]
+SQL: SELECT yang_issue.*,yang_currency.currency_name as name FROM `yang_issue` left join yang_currency on yang_currency.currency_id=yang_issue.currency_id  ORDER BY  id desc   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T12:02:38+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_flash` ORDER BY sort LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY add_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473350400 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393758-60*60*24 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393758-60*60*24*7 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393758-60*60*24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num*price) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393758-60*60*24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'buy' AND `status` IN (0,1) ORDER BY price desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'sell' AND `status` IN (0,1) ORDER BY price asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `yang_trade` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_link`  [ RunTime:0.0010s ]
+SQL: SELECT yang_issue.*,yang_currency.currency_name as name FROM `yang_issue` left join yang_currency on yang_currency.currency_id=yang_issue.currency_id  ORDER BY  id desc   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T12:03:33+08:00 ] ::1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T12:03:40+08:00 ] ::1 /Home/Login/checkIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_member` WHERE `email` = '1515662694@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-09T12:03:44+08:00 ] ::1 /Home/Login/checkLog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_member` WHERE `email` = '1515662694@qq.com' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-09-09T12:04:38+08:00 ] ::1 /Home/Login/checkLog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\phpStudy2014\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_member` WHERE `email` = '1515662694@qq.com' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yang_message_all` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `yang_message` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `yang_message_all` WHERE `add_time` >= '1463108708' AND (  u_id= -1 or  u_id = 383 )  [ RunTime:0.0010s ]
+SQL: UPDATE `yang_member` SET `login_ip`='0.0.0.0',`login_time`='1473393878' WHERE `member_id` = 383 [ RunTime:0.0330s ]
+
+[ 2016-09-09T12:04:39+08:00 ] ::1 /Home/Safe/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT *,(rmb+forzen_rmb) as count FROM `yang_member` WHERE ( member_id='383' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_message` WHERE `member_id` = '383' AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_member` WHERE ( member_id =383 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yang_currency_user` [ RunTime:0.0350s ]
+SQL: SELECT *,(num+forzen_num) as count FROM `yang_currency_user` WHERE `member_id` = 383 AND `currency_id` = 29 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yang_issue_log` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `yang_issue_log` WHERE ( deal>0 and add_time<1473393879-60*60*24  and status=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `is_forzen`,`remove_forzen_bili`,`remove_forzen_cycle` FROM `yang_issue` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `yang_issue_log` SET `deal`=deal-0 WHERE ( id=31 ) [ RunTime:0.0000s ]
+SQL: UPDATE `yang_issue_log` SET `add_time`='1473393879' WHERE ( id=31 ) [ RunTime:0.0010s ]
+SQL: UPDATE `yang_currency_user` SET `num`=num+0 WHERE ( member_id=59 and currency_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `yang_currency_user` SET `forzen_num`=forzen_num-0 WHERE ( member_id=59 and currency_id=26 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_member` WHERE ( member_id = 383 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: username D:\phpStudy2014\WWW\App\Runtime\Cache\Home\65e74b816c4db46a3ad1c8d78125e2c9.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T12:04:40+08:00 ] ::1 /Home/Safe/_PUBLIC__/Home/js/script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT *,(rmb+forzen_rmb) as count FROM `yang_member` WHERE ( member_id='383' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_message` WHERE `member_id` = '383' AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_member` WHERE ( member_id =383 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency`  [ RunTime:0.0000s ]
+SQL: SELECT *,(num+forzen_num) as count FROM `yang_currency_user` WHERE `member_id` = 383 AND `currency_id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_issue_log` WHERE ( deal>0 and add_time<1473393880-60*60*24  and status=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T12:05:03+08:00 ] ::1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT *,(rmb+forzen_rmb) as count FROM `yang_member` WHERE ( member_id='383' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_message` WHERE `member_id` = '383' AND `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 1 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 0 ) ORDER BY add_time desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.id = 2 AND ( yang_article.sign = 1 ) ORDER BY add_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_flash` ORDER BY sort LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473350400 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393903-60*60*24 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time<1473393903-60*60*24*7 ) ORDER BY add_time desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393903-60*60*24 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num*price) AS tp_sum FROM `yang_trade` WHERE `currency_id` = 29 AND ( add_time>1473393903-60*60*24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `yang_trade` WHERE `currency_id` = 29 ORDER BY price desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'buy' AND `status` IN (0,1) ORDER BY price desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `yang_orders` WHERE `currency_id` = 29 AND `type` = 'sell' AND `status` IN (0,1) ORDER BY price asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `yang_trade` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_link`  [ RunTime:0.0000s ]
+SQL: SELECT yang_issue.*,yang_currency.currency_name as name FROM `yang_issue` left join yang_currency on yang_currency.currency_id=yang_issue.currency_id  ORDER BY  id desc   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: username D:\phpStudy2014\WWW\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T12:05:04+08:00 ] ::1 /Home/Index/%EF%BF%A52717.80%20_%20%E3%80%90%E7%81%AB%E5%B8%81%E3%80%91%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E4%BA%A4%E6%98%93_%E6%AF%94%E7%89%B9%E5%B8%81%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0_%E8%99%9A%E6%8B%9F%E5%B8%81%E8%8E%B1%E7%89%B9%E5%B8%81_%E6%AF%94%E7%89%B9%E5%B8%81%E5%AE%98%E7%BD%91_files/page_glb_var.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function eregi() is deprecated D:\phpStudy2014\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT *,(rmb+forzen_rmb) as count FROM `yang_member` WHERE ( member_id='383' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_message` WHERE `member_id` = '383' AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

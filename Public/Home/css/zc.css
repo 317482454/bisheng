@@ -1,0 +1,516 @@
+.page-view{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+.page-row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+/*a{color: #fff;}
+a:hover {text-decoration: none;}
+a:visited {text-decoration: none;color: #fff;border:0;outline: none}
+a:active {text-decoration: none;color: #fff;border:0;outline: none}
+a:link{text-decoration: none;color: #fff;border:0;outline: none}*/
+/*顶部导航样式设置*/
+	.nav-top {
+		width: 100%;
+		height: 65px;
+		z-index: 9999;
+		font-size: 18px;
+		position: fixed;
+		line-height: 65px;
+		background:url(../images/tbg.png);
+	}
+	/*顶部导航菜单设置*/
+	.nav-menu {
+		height: 65px;
+		margin-left: 245px;
+	}
+	.nav-menu li a{
+		margin: 0px;
+		display: block;
+		padding: 0px 15px;
+	}
+	.nav-menu li.active a{
+		color: #f60;
+		background: url('/images/tbg.png');
+	}
+	.nav-menu li:hover a{
+		color: #f60;
+		background: url('/images/tbg.png');
+	}
+	/*用户*/
+	.user-logout:hover a {
+		color: #f60;
+	}
+	.user-logout {
+		font-size: 14px;
+		margin-left: 15px;
+		margin-top: 2px;
+	}
+	.user-in a:hover {
+		color: #f60;
+	}
+	.user-info {
+		padding: 0px 20px;
+		height: 65px;
+		position: relative;
+	}
+	/*用户信息样式设置*/
+	.user-info:hover {
+		cursor: pointer;
+		background: url('/images/tbg.png');
+	}
+	.user-level img {
+		margin-top: -5px;
+		width: 29px;
+		height: 21px;
+	}
+	.caret {
+		color: #f60;
+	}
+	.user-name a{
+		color: #f60;
+	}
+	.user-info:hover  ul {
+		display: block;
+	}
+	.user-info ul {
+		top: 65px;
+		right: 0px;
+		width: 133px;
+		display: none;
+		font-size: 14px;
+		position: absolute;
+	}
+	.user-info ul li{
+		height: 30px;
+		display: block;
+		line-height: 30px;
+		text-align: center;
+		background: url('/images/tbg.png');
+	}
+	.list-divider {
+		border-bottom: 1px solid #888;
+	}
+	.user-info ul li:hover {
+		background: #f60;
+	}
+/*==============================banner样式设置*/
+	.banner-info {
+		width: 50%;
+		height: 400px;
+		position: absolute;
+		top: 30%;
+		right: 10%;
+		z-index: 700;
+	}
+	.banner-title {
+		color: #fff;
+		font-size: 45px;
+	}
+	.banner-title + p {
+		font-size: 20px;
+		line-height: 25px;
+		color: #fff;
+	}
+	.banner-info .progress {
+		width: 60%;
+		margin:20px auto;
+		background: url('/images/tbg.png');
+		border-radius: 20px;
+	}
+	.banner-target {
+		margin: 20px 0px;
+		color: #fff;
+		size: 20px;
+	}
+	.banner-btn {
+		width :300px;
+	}
+	.bannerpro-status{
+		width: 100%;
+		color: #fff;
+		bottom : 0px;
+		height: 100px;
+		position: absolute;
+		background: url('/images/tbg.png');
+	}
+	/*项目评论，支持，关注*/
+	.banner-like div{
+		height: 40px;
+		padding: 10px;
+		line-height: 40px;
+		overflow: hidden;
+		color: #fff;
+	}
+	.banner-like div span {
+		width: 20%;
+		min-width: 60px;
+		text-align: center;
+		display: inline-block;
+	}
+	.banner-like div:first-child {
+		font-size: 25px;
+		color: #f60;
+	}
+	.banner-like div:last-child {
+		font-size: 20px;
+	}
+/*==============================banner样式设置*/
+
+/*==============================热门项目设置 start*/
+	.hot-project {
+		background: #fafafa;
+	}
+	.hp-title, .pt-title {
+		height: 90px;
+		line-height: 90px;
+		color: #333;
+		font-size: 30px;
+		text-align: center;
+	}
+	/*热门项目容器*/
+	.hot-pro {
+		height: 236px;
+		position: relative;
+		margin-bottom: 45px;
+	}
+	/*热门项目信息容器*/
+	.pro-box {
+		width: 314px;
+		height: 236px;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	.pro-box:hover {
+		-moz-box-shadow:2px 2px 5px #333333;
+		-webkit-box-shadow:2px 2px 5px #333333;
+		box-shadow:2px 2px 5px #333333;
+	}
+	.pro-box img {
+		width: 100%;
+		height: 100%;
+	}
+	.pro-box a{
+		color: #fff;
+		text-decoration: none;
+	}
+	.pro-box a:hover {
+		text-decoration: none;
+	}
+	.pro-box:hover .pro-shade {
+		cursor: pointer;
+		top: -236px;
+	}
+	/*项目遮罩*/
+	.pro-shade {
+		top: -35px;
+		color: #fff;
+		width: 314px;
+		height: 236px;
+		padding: 0px 15px;
+		position: relative;
+		background: url('../images/tbg.png');
+	}
+	/*进度条高度*/
+	.pro-shade .progress {
+		height: 10px;
+	}
+	/*项目状态*/
+	.pro-status {
+		height: 35px;
+		line-height: 35px;
+	}
+	/*项目信息*/
+	.pro-info {
+		font-size: 12px;
+		height: 15px;
+		line-height: 5px;
+	}
+	/*项目关注、支持、评论*/
+	.pro-like {
+		height: 50px;
+		padding: 9px;
+		border-top: 1px dashed #999;
+		border-bottom: 1px dashed #999;
+	}
+	.pro-like p {
+		line-height: 10px;
+		height: 10px;
+	}
+	.pro-like p:first-child {
+		color: #f60;
+	}
+	.pro-like span {
+		width: 32%;
+		text-align: center;
+		display: inline-block;
+	}
+	/*支持众筹*/
+	.pro-btn {
+		margin-top: 15px;
+		width: 180px;
+	}
+/*==============================热门项目设置 end */
+
+/*==============================成功项目样式设置 start */
+	.success-project {
+		height: 400px;
+		background: #646361;
+		background:url(../images/scase_bj.png);
+	}
+	.sp-title {
+		height: 90px;
+		line-height: 90px;
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		margin: 0px;
+	}
+	.sp-prev, .sp-next{
+		position: absolute;
+		top: 75px;
+		z-index: 500;
+	}
+	.sp-prev:hover, .sp-next:hover {
+		cursor: pointer;
+	}
+	.sp-prev {
+		left: 0px;
+		display: none;
+	}
+	.sp-next {
+		right: 0px;
+	}
+	.sp-view {
+		width: 20000px;
+		height: 260px;
+		left: 0px;
+		position: relative;
+	}
+	.sp-wrap {
+		float: left;
+	}
+	.sp-box {
+		width: 314px;
+		height: 260px;
+		margin: 0px auto;
+		background: #fff;
+		border-radius: 10px;
+	}
+	.sp-box:hover {
+		cursor: pointer;
+		background: #fafafa;
+		-moz-box-shadow:2px 2px 5px #333333;
+		-webkit-box-shadow:2px 2px 5px #333333;
+		box-shadow:2px 2px 5px #333333;
+	}
+	.sp-info {
+		padding: 15px;
+		/*height: 108px;*/
+		/*width: 100%;*/
+		border-bottom: 1px solid #ddd;
+	}
+	.sp-info div {
+		width: 190px;
+	}
+	.sp-info h4 {
+		color: #f60;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	.sp-info h4 + p {
+		color: #999;
+	}
+	/*成功项目阶段信息*/
+	.sp-step {
+		height: 100%;
+		padding: 15px;
+	}
+	/*项目时间显示*/
+	.sp-time {
+		width: 100px;
+		height: 120px;
+        background: url('../images/stepbg.png') no-repeat right;
+	}
+	.sp-time p{
+		height: 35px;
+		line-height: 35px;
+		position: relative;
+		padding-bottom:9px;
+	}
+	/*项目时间信息*/
+	.sp-time + div p{
+		color: #666;
+		height: 31px;
+		width: 175px;
+		line-height: 31px;
+		text-indent: 10px;
+		border-radius: 5px;
+		border : 1px solid #ddd;
+		margin-bottom:11px;
+	}
+/*==============================成功项目样式设置 end */
+
+/*==============================新闻模块样式设置 start*/
+/*新闻标题设置*/
+.news-title {
+	height: 80px;
+	line-height: 80px;
+}
+.news-title span:first-child {
+	font-size: 30px;
+	color: #000;
+}
+.read-more {
+	font-size: 12px;
+	border: 1px solid #f60;
+	line-height: 14px;
+	margin-top: 30px;
+	padding: 5px 20px;
+	border-radius: 15px;
+}
+.read-more:hover{
+	background: #f60;
+}
+.read-more:hover a{
+	color: #fff;
+}
+.read-more a{
+	color: #f60;
+}
+.news-list li {
+	height: 40px;
+	line-height: 40px;
+}
+.news-list li a {
+	font-size: 16px;
+	color: #666;
+}
+.news-list li a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+.lnews ul{
+	border-right: 1px solid #e5e5e5;
+}
+/*新闻时间样式设置*/
+.news-time {
+	font-size: 12px;
+	color: #999;
+}
+/*合作伙伴*/
+.partBox {
+	width: 158px;
+	height: 61px;
+	margin: 0px auto 18px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.partBox:hover {
+	-moz-box-shadow:0px 0px 2px #666;
+	-webkit-box-shadow:0px 0px 2px #666;
+	box-shadow:0px 0px 2px #666;
+}
+/*风险提示*/
+.risk-cue {
+	color: #fff;
+	margin-top: 25px;
+	background: #737373;
+	background-size: cover;
+}
+.rc-title {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+}
+.rc-text {
+	font-size: 14px;
+	margin-top: -10px;
+	padding-bottom: 20px;
+}
+/*底部样式设置*/
+footer {
+	padding: 30px 0;
+	background: #fff;
+	border-top:1px solid #eee;
+}
+footer > div > div >div:not(.footer-last) {
+	height: 160px;
+	border-right: 1px solid #eee;
+}
+footer > div > div >div:last-of-type {
+	text-align: center;
+	line-height: 40px;
+	color: #666;
+}
+/*底部logo设置*/
+.footer-logo {
+	padding-top: 40px;
+	color: #999;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}
+/*底部标题设置*/
+.footer-title {
+	color: #666;
+	font-size: 18px;
+}
+.care-wb {
+	color: #333;
+}
+.care-wb:hover span{
+	color: #ea2d31;
+}
+.care-weixin {
+	position: relative;
+	color: #333;
+}
+.care-weixin:hover {
+	color: #9dd720;
+	cursor: pointer;
+}
+.wx-pic {
+	top: -130px;
+	left: 40px;
+	z-index: 600;
+	display: none;
+	position: absolute;
+}
+.footer-list a:hover{
+	cursor: pointer;
+	color: #f60;
+}
+/*底部列表样式*/
+.footer-list li {
+	height: 25px;
+	font-size: 14px;
+	color: #999;
+	line-height: 25px;
+}
+/*底部链接样式设置*/
+.footer-list a{
+	font-size: 14px;
+	color: #999;
+}
+.footer-list a:hover {
+	text-decoration: none;
+}
+/*底部电话样式*/
+.footer-phone {
+	font-size: 30px;
+}
+
+.coin_phoneqq .center-block{ display:block; width:130px; padding-left:20px; height:36px; font-size:18px; margin:10px auto; background:#f70 url(../images/ybc_phoneqq.png) 10px center no-repeat; border-radius:5px; color:#fff; line-height:36px;}
+.coin_phoneqq .center-block:hover{ background:#f60 url(../images/ybc_phoneqq.png) 10px center no-repeat; text-decoration:none;}
+.footer_aq{ width:1200px; border-top:1px solid #eee; margin:0 auto; padding-top:20px;}
+.footer_aq p{ text-align:center; color:#999; line-height:20px; padding:0; font-size:12px;}
+
+.coin_hint{ width:1180px; margin:30px auto 0 auto; padding:10px 0 30px 20px; border-top:1px solid #eee;}
+.coin_hint h2{ font-size:18px; height:30px; line-height:30px; font-weight:normal; color:#333; background:url(../images/ybc_hint.png) left center no-repeat; padding-left:25px; margin-bottom:10px;}
+.coin_hint p{ line-height:20px; color:#666;}

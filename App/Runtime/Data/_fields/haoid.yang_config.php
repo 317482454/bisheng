@@ -1,0 +1,1 @@
+a:3:{i:0;s:3:"key";i:1;s:5:"value";s:5:"_type";a:2:{s:3:"key";s:11:"varchar(32)";s:5:"value";s:4:"text";}}

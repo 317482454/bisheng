@@ -1,0 +1,148 @@
+/* CSS Document */
+/*index css*/
+/*banner css*/
+.bannerbox{position:absolute; left:50%; margin-left:-960px; height:360px; background:#fbfaf8; border-bottom:1px solid #f2f2f2;}
+.bannerbox ul{position:absolute;height:360px;overflow:hidden;top:0px;left:0px}
+.bannerbtn{ position:absolute; top:80px; right:50%; margin-right:-325px;}
+.registMBtn{margin-right:25px;}
+#focus {width:1920px; margin:0 auto; height:360px; overflow:hidden; position:relative;}
+#focus ul {height:360px; position:absolute;}
+#focus ul li {float:left; width:1920px; height:360px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btnBg {position:absolute; width:1920px; height:20px; left:0; bottom:0;}
+#focus .btn {position:absolute; width:1920px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:center;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:10px; height:10px; border-radius:5px; _font-size:0; margin-left:15px; cursor:pointer; background:#fff;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext { width:45px; height:100px; position:absolute; top:130px; background:url(/images/sprite.png) no-repeat 0 0; cursor:pointer;}
+#focus .pre { left:50%; margin-left:-500px;}
+#focus .next { right:50%; margin-right:-500px; background-position:right top;}
+
+/*trend css*/
+.trend{ width:1000px; margin:0 auto; height:30px; overflow:hidden;}
+.trend h2{ color:#333; height:30px; line-height:30px; font-size:14px; padding-top:2px;}
+.trend ol{ width:800px; padding-top:2px;}
+.trend ol li{ height:30px; line-height:30px; margin-left:10px;}
+.trend ol li a{ color:#2471cb; text-decoration:none; width:710px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; font-size:14px;}
+.trend ol li a:hover{ color:#f60; text-decoration:underline;}
+.trend ol li span{ color:#999;}
+.mouse_top{ display:block; background:url(/images/up-down.jpg) left top no-repeat; width:19px; height:18px; border:1px solid #ccc; margin-right:1px;}
+.mouse_top:hover{ background:url(/images/up-down.jpg) right top no-repeat; border:1px solid #f60;}
+.mouse_bottom{ display:block; background:url(/images/up-down.jpg) left bottom no-repeat; width:19px; height:18px; border:1px solid #ccc;}
+.mouse_top,.mouse_bottom{ margin-top:6px;}
+.mouse_bottom:hover{ background:url(/images/up-down.jpg) right bottom no-repeat; border:1px solid #f60;}
+.title{ font-size:14px; color:#333; font-weight:normal;}
+/*.newsmune{ display:none;}*/
+.newsBox{}
+.news a,.list li a{ display:block; color:#333;}
+.news a:hover,.list li a:hover,.name:hover,.storyTitle a:hover{color:#fa6c32; text-decoration:underline;}
+.news span,.projectIntroduce{ color:#999999;}
+.latestlist{color:#333; text-decoration:none; background:url(/images/news.gif) left center no-repeat; padding-left:25px;}
+.latestlist:hover{ color:#f60;}
+
+
+/*project css*/
+.projectBox{ background:#f4f2ef; padding-bottom:30px; width:100%;}
+.projectCon{ position:relative; height:832px;}
+.go-left{ display:block; width:50px; height:50px; background:url(/images/left_right.png) left top no-repeat; position:absolute; top:47%; left:-50px; cursor:pointer;}
+.go-left:hover{ background:url(/images/left_right.png) left bottom no-repeat; }
+.go-right{ display:block; width:50px; height:50px; background:url(/images/left_right.png) right top no-repeat; position:absolute; top:47%; right:-50px; cursor:pointer;}
+.go-right:hover{ background:url(/images/left_right.png) right bottom no-repeat; }
+.projectTitleArea{ height:60px; border-bottom:1px solid #ddd; color:#ccc;}
+.projectTitle{ font-size:20px; margin-top:30px;}
+.projectTitle a{ color:#333;}
+.projectTitle a:hover{ color:#f60; text-decoration:none;}
+.list{ margin-top:40px;}
+.list li a.more,.more{color:#f60;}
+.projectmune{ background-color:#fbfaf8; padding-bottom:10px; border:1px solid #e1e1df; background:#fff; width:312px; height:365px; _height:375px; margin-top:30px; position:relative; display:inline;}
+.projectmune:hover{ -webkit-box-shadow:0 0 5px rgba(0,0,0,0.2); -moz-box-shadow:0 0 5px rgba(0,0,0,0.2); box-shadow:0 0 5px rgba(0,0,0,0.2);}
+.projectmunemid{ margin:0 29px; margin-top:30px;}
+.projectName { margin:10px 0; padding:0 7px;}
+.proItemBox{ width:1000px; height:832px; position:absolute; overflow:hidden;}
+.proItem{ position:absolute; left:0; top:0; width:1000px;}
+.proItem li{ float:left; width:1000px;}
+
+.address{ color:#666; height:16px; line-height:16px; background:url(/images/map.jpg) no-repeat; padding-left:15px;}
+.goal,.time{ color:#999; line-height:20px;}
+.story p{ color:#666; line-height:20px;}
+.name,.goal span,.timenum{ color:#333;}
+.goal span{ margin-right:5px;}
+.state{ background:#00aaf5; border-radius:5px; color:#fff; padding:3px 12px;}
+.stateGreen{background:#00cc00;}
+.stateRed{ background:#ff3333;}
+.stateOrange{ background:#ff6600;}
+.statePurple{ background:#9900cc;}
+.stateLine{ height:5px; background:#eee; margin:10px 0;}
+#orangebar{ background-color:#f60; height:5px; width:0%}
+.time{ text-align:right}
+.date{ text-align:right;}
+.projectcon,.date{ padding:0 10px; line-height:20px;}
+.care{ background:#fff; padding:6px 10px; border-radius:20px; position:absolute; top:10px; right:10px;}
+.collect,.like,.vote{ padding-left:14px; height:15px;}
+.like{ background:url(/images/like.jpg) no-repeat; background-position:0 2px; margin-right:4px;}
+.collect{ background:url(/images/collect.jpg) no-repeat; background-position:0 1px;}
+.vote{ background:url(../images/vote.jpg) no-repeat; background-position:0 0; margin-right:4px;}
+/*** 视频 ***/
+.video a{ width:40px; height:40px; background:url(/images/video.png) no-repeat left top; _background:url(/images/video.gif) no-repeat left top; position:absolute; left:10px; top:184px;}
+.video a:hover{ width:40px; height:40px; background:url(/images/video.png) no-repeat left bottom; _background:url(/images/video.gif) no-repeat left bottom;}
+/******/
+.projectIntroduce{ line-height:22px; text-indent:2em; border-top:1px solid #eeedeb; padding-top:12px;}
+.morepro{ width:260px; margin:30px auto 20px auto;}
+.morepro a{ display:block; background-color:#fff; color:#333; border:1px solid #e1e1df; width:258px; height:60px; text-align:center; line-height:60px; }
+.morepro a:hover{ background-color:#f60; color:#fff; text-decoration:none;}
+
+/*trade css*/
+.lookmore{ margin-top:40px;}
+.lookmore:hover{ text-decoration:underline;}
+.trademune{ margin-top:15px;}
+.number{ background:none;}
+.publish{color:#999;}
+.tradetIntroduce{ color:#999; border:none;}
+
+/*story css*/
+.story{ width:465px; overflow:hidden; border:1px solid #efefef;}
+.storyIntroduce{ vertical-align:middle; width:340px;}
+.LTop{ margin-top:10px;}
+.LTop a{ color:#2471df; text-decoration:underline;}
+.LTop a:hover{ color:#f60;}
+.storyImg{border:1px solid #e1e1df; height:90px; width:90px; overflow:hidden; margin-right:15px; vertical-align:middle;}
+.storyTitle a,.total{ color:#666;font-size:14px; font-family:"微软雅黑"}
+.total{ margin:0 0 5px 0;}
+.detail{ text-indent:2em; line-height:22px;}
+
+
+/*** 最新招募 ***/
+.recruitingarea{ height:260px;}
+.recruiting_top{ height:74px; padding:20px 0 15px 20px;}
+.recruiting_top .pic{ float:left;}
+.recruiting_top .pic img{ width:72px; height:72px; border:1px solid #eee; margin-right:10px; padding:1px;}
+.recruiting_top .name{ _float:left; height:56px; font-size:14px; width:180px; padding-right:20px; display:table-cell; vertical-align:middle;}
+.recruiting_top .name a{ color:#333; line-height:20px;}
+.recruiting_top .name a:hover{ color:#f60;}
+.recruiting_top .addarea{ margin-right:20px;}
+.recruiting_top .addarea p{ color:#666;}
+.aword{ padding:0 20px; border-bottom:1px solid #eee; color:#999; line-height:20px; height:50px;}
+.recruiting{ padding:10px 20px;}
+.recruiting li{ height:30px; line-height:30px;}
+.recruiting li span{ float:right; color:#999;}
+.recruiting li a{ display:block; color:#666; width:200px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.recruiting li a:hover{ color:#f60; text-decoration:underline;}
+/******/
+
+/*** 新闻 ***/
+.wapper_line{ border-bottom:1px dotted #e2e2e2; padding-bottom:30px;}
+.news_dynamic{ width:300px; float:left; margin-top:30px;}
+.news_dynamic_middle{ padding:0 23px; border-right:1px solid #eee; border-left:1px solid #eee; margin:30px 23px 0 23px;}
+.news_dynamic h2{ margin-top:0;}
+.news_dynamic .more{ margin-top:10px;}
+.news_line{ margin-top:10px;}
+.news_line li{ height:26px; line-height:26px;}
+.news_line li a{ color:#666; text-decoration:none; display:block; float:left; width:230px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.news_line li a:hover{ color:#f60; text-decoration:underline;}
+.news_line li span{ float:right; width:70px; color:#999; text-align:right;}
+/******/
+
+
+#btn_news_style a{ display:block; width:220px; height:50px; line-height:50px; text-align:center; margin:0 auto; border-radius:5px; background:#f60; color:#fff; text-decoration:none; font-size:18px;}
+#btn_news_style a:hover{ background:#f70;}
+
+.ybc_con li .button{ display:block; float:left; width:60px; height:40px;margin-left:2px;text-align:center; border:1px solid #dddcda; color:#fff; cursor: pointer; text-decoration:none; background:#fc7a33;}

@@ -1,0 +1,1 @@
+a:7:{i:0;s:7:"bank_id";i:1;s:9:"bank_name";i:2;s:13:"bank_adddress";i:3;s:7:"bank_no";i:4;s:6:"status";s:3:"_pk";s:7:"bank_id";s:5:"_type";a:5:{s:7:"bank_id";s:7:"int(11)";s:9:"bank_name";s:12:"varchar(125)";s:13:"bank_adddress";s:12:"varchar(252)";s:7:"bank_no";s:11:"varchar(32)";s:6:"status";s:10:"tinyint(1)";}}

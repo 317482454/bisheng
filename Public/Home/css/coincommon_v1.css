@@ -1,0 +1,5868 @@
+@charset "utf-8";                 
+body{	
+	margin:0;
+	padding:0; 
+	font-size:12px; 
+	line-height:162%;
+	color:#333333; 
+	font-family:Microsoft YaHei,Arial,Verdana,sans-serif,Segoe UI,Tahoma;
+	-webkit-text-size-adjust:none;
+	background:none repeat scroll 0 0 #ffffff;
+}
+.importantNotice {
+    background: none repeat scroll 0 0 #fff5c7;
+    border: 1px solid #ffcd67;
+    margin-bottom: 15px;
+    padding: 6px 0 8px 10px;
+    vertical-align: middle;
+}
+.clear{ 
+	zoom:1;
+	clear:both;
+}
+
+.clear:after{ 
+	display:block;
+	content:"\0020";
+	overflow:hidden;
+	height:0; 
+	clear:both;
+}
+
+div,form,img,ul,ol,li,dl,dt,dd,option,td,th,video{ 
+	margin:0;
+	padding:0;
+	border:0; 
+	list-style:none outside none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,blockquote,input,select,textarea{ 
+	margin:0;
+	padding:0;
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0; 
+	border:0;
+}
+
+select { 
+	font-size:12px;
+	color:#333;
+}
+
+textarea { 
+	border:#d5d5d5 1px solid;
+	font-size:12px;
+}
+
+em{ 
+	font-style:normal;
+}
+
+a{
+	cursor:pointer;
+	color:#006699;
+	text-decoration:none;
+}
+a:hover {
+	color:#0096e0; 
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.fontsize{
+	font-size:14px;
+}
+
+.fontsize-12{
+	font-size:12px;
+}
+
+.fontsize-14{
+	font-size:14px;
+}
+.fontsize-16{
+	font-size:16px;
+}
+.fontsize-20{
+	font-size:20px;
+}
+.fontweight{
+	font-weight:700;
+}
+/*color*/
+
+/*white*/
+.white{
+	color:#e6e6e6;
+}
+
+/*black*/
+.lightblack{
+	color:#373737;
+}
+
+/*=红色=*/
+.fred{  
+  color:#ff0000; 
+}
+
+.lightfred{  
+  color:#D51717; 
+}
+/*=橙色=*/
+.orange{
+	color:#ff4500; 
+}
+
+.lightorange{
+	color:#ff9100;
+}
+
+.lightorange1{
+	color:#ff6e00;
+}
+
+.lightorange2{
+	color:#0096e0;
+}
+
+/*=深灰色=*/
+.darkgray{
+	color:#999999;
+}
+
+.darkgray1{
+	color:#cccccc;
+}
+
+.darkgray2{
+	color:#eeeeee;
+}
+.darkgray3{
+	color:#3a444b;
+}
+.darkgray4{
+	color:#6473a0;
+}
+
+
+/*=灰色=*/
+.gray{
+	color:#747474;
+}
+
+/*=浅灰色=**/
+.lightgray{
+	color:#E2DEDB;
+}
+.gray1{
+	color:#999999;
+}
+
+.gray2{
+	color:#676767;
+}
+
+.gray3{
+	color:#666666;
+}
+
+/*=白色=*/
+
+.yellowgreen{
+	color:#00FFE9;
+}
+
+.green{
+	color:#066601;
+}
+
+.lightgreen{
+color:#689700;
+}
+
+.lightgreen1{
+	color:#7EFC6D;
+}
+.lightgreen2{
+	color:#80E056;
+}
+
+.lightgreen3{
+	color:#5bc819;
+}
+
+.lightgreen4{
+	color:#76e116;
+}
+
+.lightgreen5{
+	color:#068814;
+}
+
+
+/*=红色=*/
+.red{
+	color:#ff0000;
+}
+
+.lightred{
+	color:#fe0100;
+}
+
+/*=蓝色=*/
+.blue{
+	color:#0096e0;
+}
+
+.lightblue{
+	color:#049EFD;
+}
+.lightblue1{
+	color:#00B6FF;
+}
+
+.lightblue2{
+	color:#00469D;
+}
+
+.lightblue3{
+	color:#007BC7;
+}
+
+.lightblue4{
+	color:#0096e0;
+}
+
+.lightblue5{
+	color:#199de7;
+}
+
+/*=蓝色=*/
+.black{
+	color:#000;
+}
+.bold{
+	font-weight:700;
+}
+/*text-align*/
+.left{
+	text-align:left;
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+.height-40{
+	heigth:35px;
+	line-height:35px;
+	_heigth:35px;
+	_line-height:35px;
+}
+.height-35{
+	heigth:30px;
+	line-height:30px;
+	*heigth:30px;
+	*line-height:30px;
+	_heigth:30px;
+	_line-height:30px;
+}
+/*button*/
+.button-blue{display:inline-block;font-weight:700;font-size:14px;color:#fff;text-align:center;width:120px;height:36px;line-height:36px;background:url("/static/front/images/coin.png") no-repeat scroll -106px -358px transparent;}
+.button-gray{display:inline-block;font-weight:700;font-size:14px;color:#fff;text-align:center;width:120px;height:36px;line-height:36px;background:url("/static/front/images/coin.png") no-repeat scroll -106px -305px transparent;}
+.button-false{border:1px solid #DADADA;background:#9A9999;cursor:default;}
+.buttonfalse{background:#9A9999;cursor:default;}
+
+.button-blue:hover{color:#fff;text-decoration: none;background:url("/static/front/images/coin.png") no-repeat scroll 0 -1074px transparent;}
+.button-gray:hover{color:#fff;text-decoration: none;background:url("/static/front/images/coin.png") no-repeat scroll 0 -1129px transparent;}
+.button-false:hover{box-shadow:0 0 0;}
+.buttonfalse:hover{box-shadow:0 0 0;}
+
+.button{display:inline-block;font-weight:700;color:#fff;padding:7px 15px;height:22px;line-height:22px;font-size:14px; text-align:center;border-radius: 3px;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;cursor:pointer;outline:0 nones;}
+.falsebutton{display:inline-block;float:left;font-weight:700;width:100px;color:#fff;height:30px;line-height:30px;font-size:14px; text-align:center;border-radius: 0px;-moz-border-radius: 3px;-khtml-border-radius: 0px;-webkit-border-radius: 0px;cursor:pointer;outline:0 nones;}
+.button-orange{border:1px solid #0096e0;background:#f45b0e;background: -moz-linear-gradient(top,#0096e0,#0096e0 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#0096e0), to(#0096e0));}
+.button:hover{color:#fff;text-decoration:none;box-shadow:0 1px 1px rgba(0,0,0,0.1)}
+.button-orange:hover{border:1px solid #0096e0;background:#0096e0;background: -moz-linear-gradient(top,#0096e0,#0096e0 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#0096e0), to(#0096e0));}
+.buttonSize-min{height:16px;line-height:16px;}
+
+
+
+input.button{height: 30px;line-height:30px;cursor:pointer;padding:0 15px;*overflow:visible;color: #ffffff;cursor: pointer;font-size: 14px;font-weight: bold;text-align: center;}
+input.button,x:-moz-any-link,x:default{padding:0 15px;*padding:0 19px;}/*for ff ie7*/
+input.button-orange{border: 1px outset #0096e0;background:#0096e0;border-radius:0;background: -moz-linear-gradient(top,#0096e0,#0096e0 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#0096e0), to(#0096e0));}
+input.button-orange:hover{border:1px solid #0096e0;;background:#0096e0;background: -moz-linear-gradient(top,#0096e0,#0096e0 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#0096e0), to(#0096e0));}
+input.button-false{background:#898989;border:1px outset #000;border-radius:0;background: -moz-linear-gradient(top,#898989,#898989 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#898989), to(#898989));}
+input.button-false:hover{border:1px inset #000;}
+
+
+
+/*2013-05-18 */
+/*登录前首页开始*/
+/*banner1开始*/
+.nav1 .nav1-sub{
+	margin:0 auto;
+	width:980px;
+}
+
+.nav1 .nav1-sub .price{
+	float:left;
+	padding-right:15px;
+	height:32px;
+	line-height:32px;
+}
+
+.nav1 .nav1-sub .nav-quick{
+	display:inline;
+	float:right;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea{
+	padding-right:10px;
+	position:relative;
+	z-index:35;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .loadMessage{
+	float:left;
+	margin-left:25px;
+	height:32px;
+	line-height:32px;
+	color:#fff;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome{
+	
+	height:30px;
+	
+	line-height:30px;
+	
+	cursor:pointer;
+	
+	overflow:hidden;
+	
+	display:inline-block;
+	
+	background:#383d3d;
+	
+	padding:0px 10px;
+	
+	width:150px;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .nickNameTitle{
+	
+	display:inline-block;
+	
+	color:#0096e0;
+	
+	float:left;
+	
+	overflow:hidden;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a:hover{
+	
+	text-decoration:none;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.godenUser{
+	
+	height:30px;
+	
+	display:inline-block;
+	
+	width:20px;
+	
+	float:right;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.goldUser{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1667px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipUser{
+	
+	height:30px;
+	
+	display:inline-block;
+	
+	width:40px;
+	
+	float:right;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipBg1{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1509px transparent;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipBg2{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1539px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipBg3{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1569px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipBg4{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1599px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.vipBg5{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1629px transparent;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew{
+	
+	height:30px;
+	
+	line-height:30px;
+	
+	cursor:pointer;
+	
+	overflow:hidden;
+	
+	display:inline-block;
+	
+	background:#ffffff;
+	
+	padding:0px 10px;
+	
+	width:150px;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.godenUser{
+	
+	height:30px;
+	
+	display:inline-block;
+	
+	width:20px;
+	
+	float:right;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.goldUser{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0px -1667px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipUser{
+	
+	height:30px;
+	
+	display:inline-block;
+	
+	width:40px;
+	
+	float:right;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipBg1{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -201px -1509px transparent;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipBg2{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -201px -1539px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipBg3{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -201px -1569px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipBg4{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -201px -1599px transparent;
+
+}
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.vipBg5{
+	
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -201px -1629px transparent;
+
+}
+
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.triangle{
+	
+	background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll  0px -1703px transparent;
+	
+	display:inline-block;
+	
+	height:20px;
+	
+	width:15px;
+	
+	margin-top:4px;
+	
+	float:right;
+
+}
+
+
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcomeNew a.triangleNew{
+	
+	background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll  0px -1703px transparent;
+	
+	display:inline-block;
+	
+	height:20px;
+	
+	width:15px;
+	
+	margin-top:4px;
+	
+	float:right;
+
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome{
+	height:30px;
+	line-height:30px;
+	color:#ffffff;
+/* 	width:139px; */
+	cursor:pointer;
+	padding-left:2px;
+	padding-right:17px;
+	margin-top:0px;
+	overflow:hidden;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.goldUser{
+	padding-left:5px;
+	line-height:25px; 
+	vertical-align: middle;
+	padding-top: 3px;
+	display: inline-block;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .welcome a.triangle{
+	padding-left:5px;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .exit{
+	float:left;
+	height:32px;
+	line-height:32px;
+	color:#ddb30d;
+}
+
+.head .loaded-logo{
+	float:left;
+	width:180px;
+	overflow:hidden;
+	margin-top:8px;
+}
+
+.head .loaded-logo img{
+	display:block;
+	height:75px;
+	width:180px;
+}
+
+.head .accountinfo{
+	font-size:14px;
+	float:right;
+	width:480px;
+	line-height:25px;
+}
+.head .accountinfo span{
+	display:inline-block;
+	width:235px;
+}
+.head .accountinfo span.text{
+	width:108px;
+}
+.head .accountinfo span.money{
+	width:127px;
+}
+.head .accountinfo span.finbutton{
+	display: inline-block;
+    width: 46px;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    text-align:center;
+    background:url("/static/front/images/coin.png") repeat-x  0 -1191px transparent;
+}
+.head .accountinfo .allmoney{
+	padding-left:240px;
+}
+.head .remain1,.head .remain2,.head .price1,.head .price2{
+	float:left;
+	margin-top:5px;
+	
+}
+
+.head .remain1 li,.head .remain2 li{
+	height:20px;
+	line-height:20px;
+	width:120px;
+}
+
+.head .price1 li,.head .price2 li{
+	height:20px;
+	line-height:20px;
+	width:60px;
+}
+
+
+
+/*banner1结束*/
+
+/* head开始 */
+
+.nav_bg2{
+	background:url("/static/front/images/new_v1/top_bg.png") repeat-x transparent;
+	width:100%;
+	height:97px;
+}
+
+/* head结束*/
+
+
+
+.head{
+	margin:0 auto;
+	width:980px;
+}
+
+.head .logo{
+	float:left;
+	width:180px;
+	overflow:hidden;
+	margin-right:425px;
+}
+
+.head .logo img{
+	display:block;
+	height:75px;
+	width:180px;
+}
+
+.head .safe{
+	float:left;
+	margin-top:18px;
+	margin-right:10px;
+	padding-left:25px;
+	background:url("/static/front/images/coin.png") no-repeat scroll 0px -345px transparent;
+	height:40px;
+	width:60px;
+}
+
+.head .safe .saftStyle1,.head .fast .fastStyle1,.head .steady .steadyStyle1{
+	font-size:16px;
+	font-weight:700;
+}
+
+.head .fast .fastStyle1,.head .fast .fastStyle2{
+	padding-left:10px;
+}
+
+.head .safe,.head .fast{
+	border-right:1px dashed #999999;
+}
+
+.head .safe .saftStyle2,.head .fast .fastStyle2,.head .steady .steadyStyle2{
+	color:#999999;
+}
+
+.head .fast{
+	float:left;
+	margin:18px 10px 0 0;
+	padding-left:25px;
+	background:url("/static/front/images/coin.png") no-repeat scroll 0px 0px transparent;
+	height:40px;
+	width:90px;
+}
+
+.head .steady{
+	float:left;
+	margin-top:18px;
+	padding-left:35px;
+	background:url("/static/front/images/coin.png") no-repeat scroll 0px -448px transparent;
+	height:40px;
+	width:90px;
+}
+/* head结束*/
+
+/*banner2开始*/
+.nav2{
+	height:36px; 
+	background:url("/static/front/images/coin.png") repeat-x  0 -121px transparent;
+	width:100%;
+	min-width:980px;
+}
+
+.nav2 .nav2-sub{
+	margin:0 auto;
+	width:980px;
+	padding-left:25px;
+}
+
+.nav2 .nav2-sub li{
+	float:left;
+}
+
+.nav2 .nav2-sub .menu li.cur a{
+	background:url("/static/front/images/coin.png") no-repeat scroll -165px -246px transparent;
+	display:inline-block;
+	padding:0 0 0 6px;
+	height:33px;
+	line-height:33px;
+	margin-top:3px;
+}
+
+.nav2 .nav2-sub .menu li.cur a span{
+	background:url("/static/front/images/coin.png") no-repeat scroll right -246px transparent;
+	display:inline-block;
+	padding:0px 17px 0 11px;
+	font-weight:700;
+	font-size:14px;
+	color:#000000;
+	height:33px;
+	line-height:33px;
+}
+
+.nav2 .nav2-sub .menu li a{
+	display:inline-block;
+	padding:0px 20px;
+	font-weight:700;
+	font-size:14px;
+	color:#ffffff;
+	height:36px;
+	line-height:36px;
+}
+
+.nav2 .nav2-sub .connectus{
+	float:right;
+	height:36px;
+	line-height:36px;
+	font-weight:700;
+	margin:3px 20px 0 0;
+}
+
+.nav2 .nav2-sub .connectus a.weibo{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat scroll right -312px transparent;
+	height:36px;
+	width:45px;
+}
+
+.nav2 .nav2-sub .connectus a.weixin{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat scroll right -392px transparent;
+	maring-top:5px;
+	height:36px;
+	width:55px;
+}
+
+.nav2 .nav2-sub .connectus a.QQ{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat scroll -265px -447px transparent;
+	margin-left:15px;
+	height:36px;
+	width:100px;
+	color:#fff;
+	padding-left:40px;
+}
+
+
+/*登录后首页开始*/
+
+/*登录前首页MTGOX.COM行情开始*/
+.bottomArea{
+	width:980px;
+	margin:0 auto 10px auto;
+}
+
+.bottomArea .leftBottomArea{
+	float:left;
+	width:746px;
+}
+
+.mtgoxdataArea{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.mtgoxdataArea .market{
+	float:left;                 /*解决IE6、7下换行的bug*/
+	font-weight:700;
+	font-size:14px;
+}
+
+.mtgoxdataArea .selectDate{
+	float:right;
+	margin-right:39px;
+}
+
+.mtgoxdataArea .selectDate li{
+	background:url("/static/front/images/coin.png") no-repeat  left -510px transparent;
+	float:left;
+	width:65px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border-top:1px solid #c1c3c4;
+	border-left:1px solid #c1c3c4;
+	border-right:1px solid #c1c3c4;
+	margin-right:6px;
+	cursor:pointer;
+
+}
+.mtgoxdataArea .selectDate li a{
+	display:inline-block;
+	width:100%;
+	text-decoration:none;
+}
+
+
+.mtgoxdataArea .selectDate li.cur{
+	background:none repeat scroll 0 0 #ffffff;
+	float:left;
+	width:65px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border-top:1px solid #0096e0;
+	border-left:1px solid #0096e0;
+	border-right:1px solid #0096e0;
+	margin-right:6px;
+}
+
+.mtgoxdataArea .selectDate li:hover{
+	background:none repeat scroll 0 0 #ffffff;
+	float:left;
+	width:65px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border-top:1px solid #0096e0;
+	border-left:1px solid #0096e0;
+	border-right:1px solid #0096e0;
+	margin-right:6px;
+}
+
+.mtgoxdataArea .marketImage{
+	background:none repeat scroll 0 0 #ffffff;
+	float:left;
+	height:451px;
+	width:740px;
+	padding:5px 0 0 5px;
+}
+
+.leftBottomArea ul.QQGroup{
+	height:40px;
+	line-height:40px;
+	border:1px solid #f6c994;
+	padding-left:30px;
+	margin:0 0 5px 0;
+	background: url("/static/front/images/coin.png") no-repeat scroll -260px -444px #FBE6AA;
+}
+
+.leftBottomArea ul.QQGroup li{
+	float:left;
+	text-align:center;
+	width:95px;
+	padding-left:5px;
+}
+/*登录前首页MTGOX.COM行情结束*/
+
+/*登录前首页媒体动态开始*/
+.bottomArea .rightBottomArea{
+	float:right;
+	width:218px;
+	border:1px solid #c1c3c4;
+	margin-top:10px;
+	
+}
+.bottomArea .rightBottomArea .medialogo{
+	padding:10px 10px;
+	background:none repeat scroll 0 0 #ffffff;
+}
+
+.bottomArea .rightBottomArea .medialogo img{
+	width:195px;
+	height:133px;
+}
+
+.bottomArea .rightBottomArea .state{
+	display:inline-block;
+	font-size:14px;
+	font-weight:700;
+	width:208px;
+	height:30px;
+	line-height:30px;
+	background:url("/static/front/images/coin.png") no-repeat  left -184px transparent;
+	padding-left:10px;
+}
+
+.bottomArea .rightBottomArea ul.stateList{
+	padding:0 0 5px 10px;
+	width:208px;
+	background:none repeat scroll 0 0 #ffffff;
+}
+
+.bottomArea .rightBottomArea ul.stateList li a.item{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat  -275px -292px transparent;
+	height:20px;
+	line-height:20px;
+	padding-left:15px;
+}
+/*登录前首页媒体动态结束*/
+/*coin-link开始*/
+.coin-link{
+	background:none repeat scroll 0 0 #FAFAFA;
+	margin:10px auto;
+	padding:10px 5px;
+	width:970px;
+}
+
+ .coin-link span{
+	font-weight:700;
+	float:left;
+	font-size:12px;
+	padding-left:10px;
+}
+
+.coin-link dd{
+	margin-left:75px;
+}
+.coin-link dd a{
+	margin-right:10px;
+}
+/*coin-link结束*/
+/*foot开始*/
+.foot{
+	/* background:none repeat scroll 0 0 #EEEDED; */
+	border-top:1px solid #c1c3c4;
+	margin:0 auto;
+	text-align:center;
+	min-width:980px;
+	height: 90px;
+}
+
+.foot ul{
+	display:inline-block;
+	*display:inline;zoom:1;  /*解决IE6、IE7不居中的bug*/
+	margin:15px auto 0;
+}
+ 
+.foot li{
+	float:left;
+	padding:0 10px 0 0;
+}
+
+.foot li a{
+	margin:0 10px 0 0;
+}
+
+.foot .version{
+	margin:5px auto;
+}
+/*foot结束*/
+
+ /*back top*/
+.backTop{position:fixed;_position:absolute;right:10px;bottom:0;display:none;z-index:1;}
+.wbtn{background-color:#f3f1f1;background-image:-moz-linear-gradient(center top , #FDFAFB, #F9F7F7 50%, #F6F3F4 50%, #F0EDED);background-image:-webkit-gradient(linear,0 0,0 50%,from(#fdfafb),to(#f2efef));text-align:center;border-radius:3px;  -webkit-box-shadow:0 0 3px rgba(34, 25, 25, 0.5);-moz-box-shadow:0 0 2px rgba(34, 25, 25, 0.5);box-shadow:0 0 2px rgba(34, 25, 25, 0.5);border:1px solid #d1cdcd\9;}
+.backTop a{display:block;font-size:14px;color:#524d4d;font-weight:bold;text-decoration:none;text-shadow: 0 1px rgba(255, 255, 255, 0.9);padding:10px;width:40px;}
+.backTop a:hover{color:#666;}
+#cart-add-effect{position:fixed;display:none;}
+
+/*item-skills*/
+.item-skills-wapper{ width:100%; position:absolute; top:100px; z-index:90}
+.skills-w780{ width:780px;left:50%;margin:0 0 0 -390px}
+.skills-w700{ width:780px;left:50%;margin:0 0 0 -350px}
+.skills-w600{ width:600px;left:0;top:0; margin:0}
+.skills-w500{ width:500px;left:50%;margin:0 0 0 -250px}
+.skills-w346{ width:346px;left:50%;margin:0 0 0 -173px}
+.skills-w250{ width:230px;}
+/*for-item-email*/
+.for-item-email{top:50%;left:50%;margin:-84px 0 0 -300px}
+
+.item-skills-bg{position:relative;bottom:-1px;right:-1px}
+.item-skills{ border:4px #6595c3 solid; background:#eff8ff; padding:15px 20px; position:relative;z-index:2;color:#333; }
+.item-skills h4.main-title{ font-size:14px; line-height:normal; padding:0 0 15px}
+.item-skills .set-menu{ float:left; border:1px #e0e0e0 solid; border-bottom:none; width:98px;}
+.item-skills .set-menu li{ display:block; clear:both; height:26px; line-height:26px; overflow:hidden;border-bottom:1px #e0e0e0 solid;}
+.item-skills .set-menu li a{ display:block; text-align:center; height:26px; background:#fff; font-size:12px; font-weight:bold; text-decoration:none;color:#333}
+.item-skills .set-menu li.select a,.item-skills .set-menu li a:hover{ color:#3367b2;background:#f4f4f4; text-decoration:none}
+.item-skills .item-set-box{ padding:0 0 0 20px}
+.item-skills #tabmenu_skills .tabmenu{ display:none; margin:0 0 0 110px;_margin:0 0 0 107px}
+.item-skills #tabmenu_skills .select{ display:block}
+.item-skills .list-shop .closed{ position:absolute;top:15px;right:15px;display:block;overflow:hidden; cursor:pointer}
+
+.item-skills-wapper span.ma-top,.item-skills-wapper span.ma-left{background:#fff; display: block; position: absolute; bottom:0;width: 1px; height: 7px; overflow:hidden}
+.item-skills-wapper span.ma-top{top:0;right:0;width:6px;height:1px}
+
+
+/* 登录层、注册层开始*/
+
+.okcoinPop table th,.okcoinPop table td{
+	font-weight:normal;
+	font-size:14px;
+}
+
+.okcoinPop .dialog_content {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px -3px 12px #636363;
+    color: #333;
+    left: 50%;
+    margin: -190px 0 0 -300px;
+    position: fixed !important;
+    top: 50%;
+    width: 600px;
+    z-index: 102;
+}
+.okcoinPop .dialog_content_cook {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    height: 100%;
+    overflow: hidden;
+    position: fixed !important;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 102;
+}
+.okcoinPop .dialog_close_title {
+    margin: 0 auto;
+    width: 820px;
+}
+.okcoinPop .dialog_title {
+    background: -moz-linear-gradient(center top , #f6f7fc, #f6f7fc 130%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 5px 5px 0 0;
+    cursor: move;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+.okcoinPop .dialog_title span {
+    float: left;
+    margin-left: 24px;
+}
+.okcoinPop .dialog_closed{
+	position:relative;
+	background:url("/static/front/images/new_v1/close_p.png") no-repeat scroll transparent;
+	float:right;
+	margin:5px 5px 5px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+}
+.okcoinPop .dialog_closed:hover{
+	background:url("/static/front/images/new_v1/close_d.png") no-repeat scroll transparent;
+}
+
+.okcoinPop .dialog1_closed{
+	position:relative;
+	background:url("/static/front/images/new_v1/close_p.png") no-repeat scroll transparent;
+	float:right;
+	margin:-8px 5px 5px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+}
+
+.okcoinPop .dialog1_closed:hover{
+	background:url("/static/front/images/new_v1/close_d.png") no-repeat scroll transparent;
+}
+
+.okcoinPop .text_closed{
+	position:relative;
+	float:right;
+	margin:5px 5px;
+	color:#fff;
+	font-weight:700;
+}
+
+.selecttab{
+	height:28px;
+	padding:0px;
+	margin-top:15px;
+	position:relative;
+}
+
+.selecttab-box{
+	float:left;
+	margin-top:1px;
+	padding-left:20px;
+}
+
+.selecttab-box li{
+	background:none repeat scroll 0 0  #f2f1ef;
+	font-weight:700;
+	border-color:#999999;
+	border-style:solid solid none solid;
+	border-width:1px 1px;
+	height:26px;
+	line-height:2px;
+	font-size:14px;
+	margin:0 15px 0 0;
+	float:left;
+	*font-size:14px;
+	*margin:0 5px 0 0;
+	
+}
+ 
+.selecttab-box li a{
+	position:relative;
+	display:inline-block;
+	line-height:26px;
+	padding:0 10px;
+}
+
+.selecttab-box .cur a,.selecttab-box li a:hover{
+	background:none repeat scroll 0 0 #ffffff;
+	font-weight:700;
+	color:#000000;
+	outline:none;
+	margin-bottom:-1px;
+	padding-bottom:1px;
+	text-decoration:none;
+}
+
+.okcoinPop .dialog_body{	
+	background:none repeat scroll 0 0 #ffffff;
+	border-top:1px solid #999999;
+	overflow:hidden;
+	padding:10px 15px 10px 10px;
+	margin:0 10px;
+}
+
+.dialog_body table th,.dialog_body table td{
+	padding:10px 0;
+	border: none;
+}
+
+.dialog_body table th,.dialog_body table th{
+	font-size:14px;
+}
+
+.dialog_body table td span{
+	font-size:12px;
+}
+
+.button-dialog{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	background:#0096e0;
+	float:left;
+}
+
+.button-dialog:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#0096e0;
+}
+
+
+
+/*信息填写正确的图标*/
+.success{
+	background:url("/static/front/images/coin.png") no-repeat 0 -626px;
+	overflow:hidden;
+	display:inline-block;
+	width:20px;
+	height:20px;
+}
+
+/*信息填写错误的图标*/
+.error{
+	background:url("/static/front/images/coin.png") no-repeat 0 -674px;
+	overflow:hidden;
+	padding-left:20px;
+}
+
+.dialog_body .txt{
+	border:1px solid #999999;
+	padding:5px;
+	width:200px;
+	margin-right:5px;
+}
+
+.dialog_body .txt:hover{
+	border:1px solid #0096e0;
+}
+
+.dialog_body .register{
+	text-align:center;
+	margin:5px 5px 0px 10px;
+	display:inline-block;
+	height:23px;
+	line-height:23px;
+}
+
+.dialog_body .register input{
+	vertical-align:middle;
+}
+
+.dialog_body .register-link{
+	padding-right:5px;
+	padding-left:80px;
+	height:30px;
+	line-height:30px;
+}
+
+.dialog_body .register-link span{
+	padding-left:10px;
+}
+
+.dialog_body .submit-link{
+	height:30px;
+	padding-left:70px;
+	line-height:30px;
+}
+
+.dialog_body .padding-top{
+	padding-top:15px;
+}
+.dialog_body .submit-link span{
+	float:left;
+	display:inline-block;
+	padding-left:10px;
+}
+
+.dialog_body .connect{
+	height:50px;
+	line-height:50px;
+	border-top:1px solid #999;
+	padding-left:20px;
+	vertical-align:middle;
+}
+
+.dialog_body .connect a.loadQQ{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -151px transparent;
+	padding-left:20px;
+}
+.dialog_body .connect a.loadweibo{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -121px transparent;
+	padding-left:30px;
+}
+
+.dialog_body .connect span{
+	padding-top:5px;
+	line-height:20px;
+	display:inline-block;
+}
+
+.dialog_body .change{
+	padding:0;
+	font-size:12px;
+}
+/* 登录、注册层结束*/
+.dialog_body .connphone{
+	padding:30px 0;
+}
+.dialog_body .connphone li{
+	padding:10px 0;
+	text-align:left;
+}
+
+.dialog_body .connphone li.luckClass{
+	padding:5px 0;
+	text-align:left;
+}
+
+.dialog_body .connphone li span.c1{
+	width:170px;
+	display:inline-block;
+	text-align:right;
+}
+.dialog_body .connphone li input{
+	height:30px;
+	width:150px;
+}
+
+.dialog_body .connphone li .c3 input{
+	height:30px;
+	width:100px;
+}
+.dialog_body .connphone li.submit{
+	text-align:center;	
+}
+.dialog_body .connphone li.submit input{
+	height:30px;
+	width:100px;
+}
+.dialog_body .authleft{
+	width: 200px;
+	float:left;
+	border:1px solid #999999;
+	background: none repeat scroll 0 0 #FAFAFA;
+	padding-left:5px;
+}
+.dialog_body .authright{
+	float:right;
+	font-size: 14px;
+	padding-right:15px;
+}
+
+
+.dialog_body .qrcode{
+	padding: 15px;
+}
+
+.dialog_body .qrcode table th,.dialog_body .qrcode table td{
+	padding:0 0;
+	border: none;
+}
+.dialog_body .totpKey{
+	border-top: 1px solid #CCCCCC;
+	padding: 4px 0 6px 15px;
+}
+.dialog_body .totpKey input{
+	background-color:#F7F7F9;
+	border: 1px solid #E1E1E8;
+	color:#DD1144;
+	padding:2px 4px;
+	white-space:nowrap;
+	width: 120px;
+}
+.dialog_body .authright p{
+	border-bottom:1px solid #DCDCDC;
+	color:#666666;
+	display:inline-block;
+/* 	line-height:21px; */
+	padding-bottom:8px;
+	width:200px;
+}
+
+.dialog_body .authright input{
+	height:25px;
+	width:130px;
+    margin-left:2px;
+    margin-bottom:5px;
+}
+
+.dialog_body .authright .buttom{
+/* 	margin-top:17px; */
+	height:25px;
+	width:65px;
+}
+
+.dialog_body .authright label{
+	display:inline-block;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+
+.dialog_body .authright label small{
+	color:#999999;
+	padding-left:8px;
+}
+
+
+.dialog_body .centertitle{
+	font-size:14px;
+	font-weight:700;
+	text-align:left;
+}
+
+.dialog_body .weixing{
+	padding:10px 0;
+}
+.dialog_body .weixing li{
+	padding:5px 0;
+	text-align:left;
+}
+
+.dialog_body .connphone span.phoneBody{
+	height:32px;
+	display:inline-block;
+	width:151px;
+	line-height:32px;
+	vertical-align:middle;
+}
+.dialog_body .connphone span.phoneBefore{
+	background-color: #EFEFEF;
+	border: 1px solid #ABADB3;
+	border-radius: 4px 0  0  4px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	 width: 45px;
+	 margin-right:-1px;
+	 float:left;
+}
+
+.dialog_body .connphone input.validatePhoneNumber{
+	width:103px;
+	border-radius:0 4px 4px 0;
+	border:1px  solid #cccccc;
+	float:left;
+}
+
+.dialog_body .connphone input.validatePhoneCode{
+	border-radius:4px 4px 4px 4px;
+	border:1px  solid #cccccc;
+}
+
+/*左侧菜单栏开始*/
+.marketArea{
+	margin: 2px auto 0;
+    width: 980px;
+}
+
+.marketArea .leftMenu{
+	float:left;
+	margin:5px 0px 10px 0;
+	width:160px;
+	border:1px solid #e1e1e1;
+	background:#f2f2f2;
+}
+
+.marketArea .leftMenu .bor{
+	border-bottom:1px solid #cecece;
+	background:#f1f1f1;
+}
+
+.marketArea .leftMenu .tradeTitle{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:700;
+	height:35px;
+	line-height:35px;
+	/*border:1px solid #0096e0;*/
+	padding-left:10px;
+}
+.marketArea .leftMenu .tradeTitlecur{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:700;
+	background:#0096e0;
+	height:35px;
+	line-hright:35px;
+	padding-left:10px;
+}
+
+.marketArea .leftMenu .bor div span{
+	display:inline-block;
+	width:120px;
+	padding-left:35px;
+	height:35px;
+	line-height:35px;
+}
+
+.marketArea .leftMenu .tradeTitle .trade1{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat 0 -290px transparent;
+	color:#333333;
+}
+.marketArea .leftMenu .tradeTitlecur .trade1cur{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat -221px -290px transparent;
+	color:#ffffff;
+}
+
+.marketArea .leftMenu .tradeTitle .acountManage1{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat 0 -440px transparent;
+	color:#333333;
+}
+.marketArea .leftMenu .tradeTitlecur .acountManage1cur{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat -221px -440px transparent;
+	color:#ffffff;
+}
+
+.marketArea .leftMenu .tradeTitle .basicSetting1{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat 0 -620px transparent;
+	color:#333333;
+}
+.marketArea .leftMenu .tradeTitlecur .basicSetting1cur{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat -221px -620px transparent;
+	color:#ffffff;
+}
+
+.marketArea .leftMenu .tradeTitle .questionAnswer{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat 0 -1090px transparent;
+	color:#333333;
+}
+.marketArea .leftMenu .tradeTitlecur .questionAnswercur{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat -218px -1090px transparent;
+	color:#ffffff;
+}
+
+.marketArea .leftMenu .tradeTitle .QQGroup1{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat scroll 0 -772px transparent;
+}
+
+.marketArea .leftMenu .bor .bor-3 li{
+	padding-left:20px;
+}
+
+.marketArea .leftMenu .bor .bor-3 span a{
+	padding-left:3px;
+}
+
+
+
+.marketArea .leftMenu li{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	padding-left:25px;
+}
+
+.marketArea .leftMenu li:hover{
+	background:#ffffff;
+	color:#0096e0;
+}
+
+.marketArea .leftMenu li.cur{
+	background:#ffffff;
+	color:#0096e0;
+}
+.marketArea .leftMenu li.cur a{
+	color:#0096e0;
+}
+
+.marketArea .leftMenu li a{
+	color:#666666;
+	padding-left:30px;
+	text-decoration:none; 
+}
+.marketArea .leftMenu li a:hover{
+	color:#0096e0;
+}
+
+.marketArea .leftMenu li a.cur{
+	color:#666666;
+	font-weight:700;
+}
+
+.marketArea .leftMenu .i1{
+	background:url("/static/front/images/i1.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i1:hover{
+	background:url("/static/front/images/i1-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i1cur{
+	background:url("/static/front/images/i2-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i2{
+	background:url("/static/front/images/i2.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i2:hover{
+	background:url("/static/front/images/i2-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i2cur{
+	background:url("/static/front/images/i2-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3{
+	background:url("/static/front/images/i3.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3:hover{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3cur{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3{
+	background:url("/static/front/images/i3.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3:hover{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i3cur{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i4{
+	background:url("/static/front/images/i3.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i4:hover{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i4cur{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i5{
+	background:url("/static/front/images/i3.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i5:hover{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i5cur{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i6{
+	background:url("/static/front/images/i3.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i6:hover{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+.marketArea .leftMenu .i6cur{
+	background:url("/static/front/images/i3-.png") no-repeat scroll 0 0 transparent;
+}
+
+/*右侧行情图开始*/
+.marketArea .rightArea{
+	float:left;
+	width:780px;
+	margin-top:5px;
+	padding-left:20px;
+	min-height:650px;
+}
+
+.buysellTitle{
+	border-bottom: 1px solid #C3C1C1;
+    font-size: 14px;
+    margin-bottom:15px;
+}
+
+.marketArea .rightArea .rightAreaTitle{
+	font-size:16px;
+	font-weight:700;
+	padding:5px 10px;
+}
+
+.coinBox{
+	border:1px solid #e4e4e4;
+	/*border-radius: 5px;*/
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.coinBox .coinBoxTitle1{
+	font-size:14px;
+	font-weight:700;
+	padding:10px 0px 10px;
+	border-bottom:1px solid #C3C1C1;
+	margin-top:15px;
+}
+
+.coinBox .coinBoxTitle{
+	background:none repeat scroll 0 0  #f3f3f3;
+	font-size:14px;
+	font-weight:700;
+	padding:12px 20px;
+}
+
+
+.coinBoxprice{
+	width:382px;
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+}
+
+.coinBox .coinBoxBody{
+	background:none repeat scroll 0 0 #ffffff;
+	*padding:4px 3px;
+	/*height:200px;*/
+}
+
+.coinBox .coinBoxBody .RMB{
+	font-weight:700;
+	font-size:14px;
+	margin-left:176px;
+	margin-bottom:10px;
+}
+
+.coinBox .coinBoxBody .massges{
+	padding-bottom:5px;
+	background:url("/static/front/images/xian.png") no-repeat  -30px -14px transparent;
+}
+
+.coinBox .coinBoxBody .massges .leftMessage{
+	display:inline-block;
+	width:173px;
+}
+
+.coinBox .coinBoxBody .massges .leftMessage1{
+	display:inline-block;
+	width:120px;
+}
+
+.coinBox .coinBoxBody .massges .leftMessage2{
+	display:inline-block;
+	width:90px;
+}
+
+.coinBox .coinBoxBody .massges .dollarprice{
+	display:inline-block;
+	width:80px;
+}
+
+.coinBox .coinBoxBody .massges .dollarprice1{
+	display:inline-block;
+	width:75px;
+}
+
+.coinBox .coinBoxBody .mtprice{
+	margin-bottom:10px;
+}
+.coinBox .coinBoxBody .dollar1{
+	font-weight:700;
+	font-size:14px;
+	margin-left:125px;	
+}
+
+.coinBox .coinBoxBody .dollar2{
+	font-weight:700;
+	font-size:14px;
+	margin-left:49px;	
+}
+
+
+.mtgoxdata{
+	padding:10px 20px 0 20px;
+}
+
+.coinBox .coinbox-left{
+	padding:10px 0 0 30px;
+	height:120px;
+	width:610px;
+	float:left;
+}
+
+.rightArea .riskArea{
+	background:none repeat scroll 0 0 #fbe6aa;
+	margin-bottom:10px;
+	border:1px solid #f6c994;
+	vertical-align:middle; 
+}
+
+.rightArea .riskArea-1{
+	background:none repeat scroll 0 0 #fbe6aa;
+	margin-top:10px;
+	border:1px solid #f6c994;
+	vertical-align:middle; 
+	width:605px; 
+}
+
+.rightArea .riskArea span.icon{
+	background:url("/static/front/images/coin.png") no-repeat  0 -984px transparent;
+	display:inline-block;
+	width:40px;
+	height:43px;
+	vertical-align:middle;  
+}
+.rightArea .riskArea span.text{
+	display:inline-block;
+	width:710px;
+	line-height:22px;
+	vertical-align:middle;  
+}
+
+.rightArea .riskArea span.hinttext{
+	display:inline-block;
+	width:660px;
+	line-height:22px;
+	vertical-align:middle;  
+}
+
+.rightArea .riskArea-1 span.hinttext{
+	display:inline-block;
+	width:550px;
+	line-height:22px;
+	vertical-align:middle;  
+}
+
+.rightArea .riskArea-1 span.icon{
+	background:url("/static/front/images/coin.png") no-repeat  0 -984px transparent;
+	display:inline-block;
+	width:40px;
+	height:43px;
+	vertical-align:middle;  
+}
+
+.rightArea .riskArea .define{
+	font-size:14px;
+	font-weight:700;
+}
+
+.rightArea .rechargeCoin{
+	width:130px;
+	float:right;
+	height:130px;
+	background:#fff;
+}
+
+.rightArea .rechargeCoin .rechargeQrcode{
+	margin:10px; 
+}
+
+/*右侧行情图结束*/
+
+/*****汇款步骤*****/
+.rightArea .remitStep{
+	margin-bottom:10px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.rightArea .remitStep span{
+	text-align:center;
+	display:inline-block;
+	height:70px;
+	width:635px;
+}
+
+
+.rightArea .remitStep span.specificStepBackground1{
+	background:url("/static/front/images/code/progress.gif") no-repeat scroll 0 6px transparent;
+}
+
+.rightArea .remitStep span.specificStepBackground2{
+	background:url("/static/front/images/code/progress.gif") no-repeat scroll 0 -63px transparent;
+}
+
+.rightArea .remitStep span.specificStepBackground3{
+	background:url("/static/front/images/code/progress.gif") no-repeat scroll 0 -133px transparent;
+}
+
+.rightArea .remitStep span.specificStepBackground4{
+	background:url("/static/front/images/code/progress.gif") no-repeat scroll 0 -203px transparent;
+}
+
+/*登录后首页结束*/
+
+/*买入比特币开始*/
+
+.buybtc{
+	width:430px;
+	height:377px;
+	*height:371px;
+	_height:385px;
+	float:left;
+	/*margin-top:10px;*/
+	*margin-left:0px;
+	*width:430px;
+}
+
+.buybtc-2{
+	width:380px;
+	height:410px;
+	*height:400px;
+	float:left;
+	/*margin-top:10px;*/
+	*margin-left:0px;
+	*width:380px;
+}
+
+.buyonesellone{
+	width:332px;
+	height:377px;
+	*height:370px;
+	_height:350px;
+	float:left;
+	/*margin-top:10px;*/
+	*margin-left:0px;
+	*width:332px;
+}
+
+.boxmargin{
+	width:10px;
+	height:373px;
+	float:left;
+	margin-top:10px;
+}
+
+.coinBox .buybtcbody{
+	height:377px;
+	*height:363px;
+	_height:385px;
+}
+
+.coinBox .buybtcbody-2{
+	height:367px;
+	*height:347px;
+}
+
+.coinBox .buybtcbody1{
+	height:262px;
+	*height:283px;
+}
+.coinBox .buybtcbody2{
+	height:373px;
+	*height:368px;
+	_height:360px;
+}
+.coinBox .coinBoxBody .freetitle{
+	padding:15px 0 12px 20px;
+}
+
+.coinBox .coinBoxBody .freetitle img{
+	padding-left:8px;
+}
+
+.coinBox .coinBoxBody .freetitle span{
+	margin-bottom:1px;
+}
+
+.coinBox .coinBoxBody .freetitle span.{
+	
+}
+
+.coinBox .coinBoxBody .moneynumtext1{
+	font-size:14px;
+	padding:10px 0px 12px 20px;
+	*padding:15px 0px 12px 20px;
+}
+
+.coinBox .coinBoxBody .moneynumtext2{
+	font-size:14px;
+	padding:2px 0px 12px 20px;
+}
+.coinBox .coinBoxBody .moneynumtext3{
+	font-size:14px;
+	padding:3px 0px 13px 20px;
+}
+.coinBox .coinBoxBody .moneynum{
+	padding-left:20px;
+}
+
+.coinBox .coinBoxBody .moneynumtext1 span.orderProportion{
+	float:right;
+}
+
+.coinBox .coinBoxBody .moneynumtext1 span.orderProportion a{
+	padding-right:8px;
+}
+
+.coinBox .coinBoxBody span.finbutton{
+	display: inline-block;
+    width: 18px;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    text-align:center;
+    background:url("/static/front/images/new_v1/icon.png") no-repeat  0 -90px transparent;
+    height:19px;
+}
+.coinBox .coinBoxBody .buytext{
+	text-align:center;
+	padding-top:20px;
+}
+
+.coinBox .coinBoxBody .buyinput{
+	position:relative;
+	text-align:center;
+	padding-top:5px;
+}
+.coinBox .coinBoxBody .buytext span{
+	display:inline-block;
+	text-align:center;
+}
+.coinBox .coinBoxBody .buytext span.buynum{
+	padding-left:60px;
+	width:70px;
+}
+.coinBox .coinBoxBody .buytext span.buynum-2{
+	padding-left:35px;
+	width:80px;
+}
+
+.coinBox .coinBoxBody .buytext span.buyprice{
+	width:70px;
+}
+
+.coinBox .coinBoxBody .buytext span.buyprice-2{
+	width:80px;
+}
+.coinBox .coinBoxBody .buytext span.summoney{
+	padding-left:60px;
+	width:70px;
+}
+.coinBox .coinBoxBody .buytext span.summoney-2{
+	padding-left:35px;
+	width:80px;
+}
+
+.coinBox .coinBoxBody .buyinput span{
+	display:inline-block;
+	text-align:center;
+}
+
+.coinBox .coinBoxBody .buysellinput{
+	width:70px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #e1e1e1;
+}
+
+.coinBox .coinBoxBody .buysellinput-2{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #e1e1e1;
+}
+
+.coinBox .coinBoxBody .buysellinput:hover{
+	border:1px solid #0096e0;
+}
+
+.coinBox .coinBoxBody .buyinput span.buyinputnum{
+	padding-left:60px;
+}
+.coinBox .coinBoxBody .buyinput span.buyinputnum-2{
+	padding-left:35px;
+}
+.coinBox .coinBoxBody .buyinput span.buyinputprice{
+}
+.coinBox .coinBoxBody .buyinput span.inputsummoney{
+	padding-left:60px;
+}
+.coinBox .coinBoxBody .buyinput span.inputsummoney-2{
+	padding-left:35px;
+}
+.coinBox .coinBoxBody .buyinput span.chen{
+	width:20px;
+	height:20px;
+	background:url("/static/front/images/coin.png") no-repeat  right -983px transparent;
+	position:absolute;
+	top:14px;
+	left:133px;
+	_left:95px;
+}
+.coinBox .coinBoxBody .buyinput span.chen-2{
+	width:20px;
+	height:20px;
+	background:url("/static/front/images/coin.png") no-repeat  right -983px transparent;
+	position:absolute;
+	top:14px;
+	left:115px;
+	_left:75px;
+}
+.coinBox .coinBoxBody .buyinput span.equal{
+	width:20px;
+	height:20px;
+	background:url("/static/front/images/coin.png") no-repeat  right -1020px transparent;
+	position:absolute;
+	top:14px;
+	left:268px;
+	_left:230px;
+}
+.coinBox .coinBoxBody .buyinput span.equal-2{
+	width:20px;
+	height:20px;
+	background:url("/static/front/images/coin.png") no-repeat  right -1020px transparent;
+	position:absolute;
+	top:14px;
+	left:236px;
+	_left:185px
+}
+
+.coinBox .coinBoxBody .tryprice{
+	font-size:14px;
+	padding-left:40px;
+	*padding-left:20px;
+	padding-top:20px;
+}
+
+.coinBox .coinBoxBody span.limitpriceTitle{
+	font-size:14px;
+	padding-left:30px;
+}
+
+.coinBox .coinBoxBody .tryprice input{
+	width:185px;
+	height:30px;
+	line-height:30px;
+	margin-left:15px;
+	border:1px solid #e1e1e1;
+}
+.coinBox .coinBoxBody .tryprice input:hover{
+	border:1px solid #0096e0;
+}
+
+.coinBox .coinBoxBody .tranpass{
+	font-size:14px;
+	padding-left:40px;
+	*padding-left:20px;
+}
+
+.coinBox .coinBoxBody .tranpass input{
+	width:185px;
+	height:30px;
+	line-height:30px;
+	margin-left:15px;
+}
+.coinBox .coinBoxBody .tranpass input:hover{
+	border:1px solid #0096e0;
+}
+
+.coinBox .coinBoxBody .btcFeeTips{
+	height:25px;
+	line-height:25px;
+	padding-left:20px;
+}
+.coinBox .coinBoxBody .tradeBtcTips{
+	height:30px;
+	line-height:30px;
+	padding-top:10px;
+}
+.coinBox .coinBoxBody .submitorder{
+	text-align: center;
+}
+
+.coinBox .coinBoxBody .orderlist li{
+	border-bottom:1px solid #e4e4e4;
+	line-height:30px;
+}
+.coinBox .coinBoxBody .orderlist li.borderbtm{
+	background:#f1f1f1;
+}
+.coinBox .coinBoxBody .orderlist li span{
+	display:inline-block;
+}
+
+.coinBox .coinBoxBody .orderlist li span.c1{
+	width:50px;
+	*width:50px;
+	padding-left:15px;
+}
+.coinBox .coinBoxBody .orderlist li span.c2{
+	width:85px;
+	*width:85px;
+	padding-left:40px;
+}
+.coinBox .coinBoxBody .orderlist li span.c3{
+	width:85px;
+	*width:85px;
+	padding-left:45px;
+}
+.coinBox .coinBoxBody .orderlist li.lastprice{
+	font-size:14px;
+	padding-top:5px;
+}
+
+.lasttenorder{
+	width:770px;
+	margin:5px 0px 10px;
+	float:left;
+}
+
+.lasttenorder2{
+	width:758px;
+	margin-top:5px;
+	float:left;
+}
+
+
+.lasttenorder3{
+	width:770px;
+	margin:5px 0px 10px;
+	float:left;
+}
+
+.lasttenorder table{
+	text-align:center;
+	border:1px solid #e4e4e4;
+}
+.lasttenorder table th{
+	color:#333333;
+	background-color: #f1f1f1;
+	height:30px;
+	font-weight:normal;
+}
+.lasttenorder table td{
+	height:30px;
+	border-top:1px solid #e4e4e4;
+}
+
+.lasttenorder .security{
+	padding:10px 0;
+}
+.lasttenorder .security li{
+	padding:10px 0;
+}
+.lasttenorder .security li span.c1{
+	display:inline-block;
+	width:120px;
+	text-align:right;
+	padding-right:20px;
+}
+
+.lasttenorder .security li input.inputStyle{
+	height:25px;
+}
+
+.lasttenorder .security li select.selectStyle{
+	width:150px;
+	height:25px;
+	font-size: 14px;
+	line-height:25px;
+}
+
+.lasttenorder2 .security{
+	padding:10px 0;
+}
+
+.lasttenorder2 .security li{
+	padding:10px 0;
+}
+.lasttenorder2 .security li span.c1{
+	display:inline-block;
+	width:70px;
+}
+
+/*买入比特币结束*/
+
+
+
+/*充值页开始*/
+/*储蓄卡充值、网银充值*/
+.onlineRecharge{
+	background:none repeat scroll 0 0 #ffffff;
+	padding:5px 0px 10px 0px;	
+/* 	min-height:350px; */
+    height:auto !important; 
+    height:350px;
+}
+
+.onlineRecharge .onlineRechargeContent{
+	border:1px solid #e4e4e4; 
+	padding:20px;
+	margin-top:10px;
+}
+
+.onlineRecharge .onlineRechargeContent .numberBlock{
+	padding:0px 0px 10px 100px;
+	width:250px;
+	float:left;
+}
+
+.onlineRecharge .onlineRechargeContent .explainBlank{
+	padding-right:20px;
+	width:300px;
+	float:right;
+	line-height:25px;
+	font-size:14px;
+}
+
+.onlineRecharge .onlineRechargeContent .numberBlock li{
+	padding-bottom:5px;
+}
+
+.onlineRecharge .onlineRechargeContent .numberBlock .num{
+	width:100px;
+	color:#747474;
+	height:30px;
+}
+.onlineRecharge .onlineRechargeContent  .info{
+	width:200px;
+}
+a.confirmfin{
+	margin-left:110px;
+}
+
+
+.onlineRecharge .onlineRechargeContent .alipay{
+	height:40px;
+	line-height:40px;
+	font-weight:700;
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+.onlineRecharge .onlineRechargeContent .alipay .logo{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat scroll 0 -560px transparent;
+	height:40px;
+	width:100px;
+	line-height:40px;
+	padding-right:20px;
+}
+.onlineRecharge .onlineRechargeContent .tenpay{
+	height:40px;
+	line-height:40px;
+	font-weight:700;
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+.onlineRecharge .onlineRechargeContent .tenpay .logo{
+	display:inline-block;
+	background:url("/static/front/images/connect/tenpay.jpg") no-repeat scroll 0 0px transparent;
+	height:40px;
+	width:100px;
+	line-height:40px;
+	padding-right:20px;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand{
+	line-height:30px;
+	padding-left:20px;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand ul{
+	padding-left:20px;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand ul span.c1{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand ul span.c2{
+	display:inline-block;
+	width:265px;
+	padding-left:20px;
+	font-weight:700;
+	font-size:14px;
+	text-align:left;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand ul span.c3{
+	display:inline-block;
+	padding-left:20px;
+	text-align:left;
+}
+
+.onlineRecharge .onlineRechargeContent .alipayhand ul span.c4{
+	padding-left:90px;
+}
+
+
+.onlineRecharge .onlineRechargeContent .numberBlock .item{
+	font-size:14px;
+	padding-right:5px;
+}
+.onlineRecharge .onlineRechargeContent .netbanktitle{
+	padding-bottom:10px;
+}
+.onlineRecharge .onlineRechargeContent .netbanktitle strong{
+	font-size:14px;
+}
+.onlineRecharge .onlineRechargeContent .netbank{
+    margin:5px 0 20px 0;
+	border-top:1px dotted #f45b0e;
+	padding:8px;
+	/*background: none repeat scroll 0 0 #FDF9F6;*/
+	background: none repeat scroll 0 0 #F2F1EF;
+}
+
+.onlineRecharge .onlineRechargeContent .netbank li{
+	float:left;
+	padding:8px;
+	height:39px;                 /*当下级元素:hover时要设置height,否则下一行元素会换行*/
+}
+
+.onlineRecharge .onlineRechargeContent .bankBlock{
+	display:inline-block;
+	width:180px;
+	height:37px;
+	background-color: #FFFFFF !important;
+	zoom:1;
+}
+
+.onlineRecharge .onlineRechargeContent .bankBlock:hover{
+	border:1px solid #F45B0E;
+	cursor:pointer;
+	width:183px;
+	height:37px;
+	zoom:1;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink{
+	display:inline-block;
+	width:125px;
+	height:35px;
+	vertical-align:middle;
+}
+
+.onlineRecharge .onlineRechargeContent .current{
+	border:1px solid #F45B0E;
+}
+
+ .onlineRecharge .onlineRechargeContent .bankLink1{
+	background:url("/static/front/images/bank.png") repeat scroll 0 3px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink2{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -107px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink3{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -143px transparent;
+}
+
+ .onlineRecharge .onlineRechargeContent .bankLink4{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -213px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink5{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -287px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink6{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -321px transparent;
+}
+
+ .onlineRecharge .onlineRechargeContent .bankLink7{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -358px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink8{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -394px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent .bankLink9{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -466px transparent;
+}
+
+.onlineRecharge .onlineRechargeContent  .bankLink10{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -539px  transparent;
+}
+
+ .onlineRecharge .onlineRechargeContent .bankLink11{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -608px transparent;
+}
+.onlineRecharge .onlineRechargeContent .bankLink12{
+	background:url("/static/front/images/bank.png") repeat scroll 0  -754px transparent;
+}
+.onlineRecharge .onlineRechargeContent .bankLink13{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -646px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink14{
+	background:url("/static/front/images/bank.gif") repeat scroll 0 -502px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink15{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -251px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink16{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -34px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink17{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -867px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink18{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -575px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink19{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -720px transparent;
+}
+ .onlineRecharge .onlineRechargeContent .bankLink20{
+	background:url("/static/front/images/bank.png") repeat scroll 0 -902px transparent;
+}
+.onlineRecharge .onlineRechargeContent li.more a{
+	display:inline-block;
+	padding-left:80px;
+}
+
+.onlineRecharge .onlineRechargeContent li.more a.moreButton{
+	background:url("/static/front/images/coin.png") repeat scroll right -1073px transparent;
+	padding-left:100px;
+}
+
+.onlineRecharge .onlineRechargeContent li.more a.moreButton:hover{
+	text-decoration:none;
+}
+
+
+.coinBox .coinBoxBody .rmbout{
+	padding:10px 0;
+}
+.coinBox .coinBoxBody .rmbout div{
+	padding:8px 0;
+	line-height:25px;
+	float:left;
+	width:700px;
+}
+
+.coinBox .coinBoxBody .rmbout div.divMargins{
+	padding:2px 0;
+}
+
+.coinBox .coinBoxBody .rmbout div.setWithdrawCny{
+	width:200px;
+	float:left;
+	text-align:center;
+}
+
+
+.coinBox .coinBoxBody .rmbout .displayBankNumber{
+	position:absolute;
+	left:113px;
+	top:-23px;
+	z-index:3;
+	background:#FFFFE4;
+	height:32px;
+	line-height:32px;
+	border:1px solid #e4e4e4;
+	font-weight:600;
+	font-size:16px;
+	min-width:200px;
+}
+.coinBox .coinBoxBody .rmbout .c1{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	text-align:right;
+	padding-right:10px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody .rmbout .c2{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	text-align:right;
+	padding-right:13px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody .rmbout input{
+	width:200px;
+	height:30px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody .rmbout  select{
+	width:150px;
+	height:22px;
+}
+
+.coinBox .coinBoxBody .rmbout .sendmsg{
+	width:88px;
+	height:30px;
+}
+.coinBox .accountfilter{
+	padding:10px 20px;
+}
+.coinBox .accountfilter select{
+	width:150px;
+	height:22px;
+}
+
+.coinBox .coinBoxBody .fincoinaddress{
+	padding:10px 0;
+}
+
+.coinBox .coinBoxBody .fincoinaddress-1{
+	padding:10px 0;
+	width:610px;
+}
+
+.coinBox .accountfilter a{
+	display:inline-block;
+	height:27px;
+	line-height:27px;
+	width:60px;
+	text-align:center;
+	border-radius:3px;
+	color:#444444;
+	margin-left:9px;
+}
+
+.coinBox .accountfilter a:hover{
+	text-decoration:none;
+	background:#CBE9F1;
+}
+
+.coinBox .accountfilter a.cur{
+	background:#0096e0;
+	color:#ffffff;
+}
+
+/*充值页结束*/
+
+/* page */
+.page { width:auto; height:26px; padding:5px 0 10px; text-align: center; float:right; font-size:12px;}
+.page li{  padding:2px 2px 0px; float:left;line-height:20px;}
+.page li a,.pagel li a:hover,.page .current_ss{ border:1px solid #ccc; padding:2px 7px 0px; float:left; text-decoration:none; color:#000;}
+.page li a:hover,.page .current_ss{ background:#0096e0; color:#fff;}
+.page .page-jump .txt{width: 30px;height: 20px;line-height:20px;border:1px solid #7E9DB9; ime-mode:disabled;text-align:center; vertical-align:middle; }
+.page .page-jump .btn{height: 22px;line-height:18px;width: 45px;text-align:center;*vertical-align:middle;}
+
+/*最后确认小提示层开始*/
+.okcoinPop .small_content{
+    background: none repeat scroll 0 0 #ffffff;
+    border: 6px solid #636363;
+    border-radius: 5px;
+    color: #333;
+    left: 50%;
+    margin: -134px 0 0 -210px;
+    position: fixed !important;
+    top: 50%;
+    width: 430px;
+    z-index: 102;
+}
+/*最后确认小提示层开始*/
+.okcoinPop .small_content2{
+	left:50%;
+	top:50%;
+	margin:100px 0 0 -96px; 
+	position:fixed !important;
+	position:absolute;
+	width:320px; 
+	z-index:102;
+	color:#333; 
+	background:none repeat scroll 0 0 #ffffff;	
+	border:2px solid #999999;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.okcoinPop .orderFloorTitle{
+	background: none repeat scroll 0 0 #F3F3F3;
+	overflow:hidden;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:700;
+}
+
+.okcoinPop .orderFloorTitle span{
+	float:left;
+	margin-left:20px;
+}
+
+.okcoinPop .orderFloorMessage{
+	margin:10px 0 5px 20px;
+	font-size:14px;
+}
+.okcoinPop .orderFloorDetail{
+	margin:0 0 10px 50px;
+}
+.okcoinPop .cookpicdetail{
+	margin:0px auto;
+	overflow-y:scroll;
+	background:none repeat scroll 0 0 #fff;
+	width:800px;
+	height:90%;
+}
+
+.okcoinPop .smallFloor{
+	margin:20px 10px;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+}
+.okcoinPop .orderFloor-button{
+	margin:10px;
+}
+
+/*最后确认小提示层结束*/
+
+/*充值遇到问题提示层开始*/
+.okcoinPop .rechargeError{
+	border-top:1px solid  #d4d4d4;
+	margin:0px 20px;
+	margin-top:15px;
+	padding-top:15px;
+	padding-left:50px;
+}
+/*充值遇到问题提示层结束*/
+/*交易明细弹层开始*/
+.tradeDetail{
+	margin:10px 0;
+	float:left;
+}
+.tradeDetail table{
+	text-align:center;
+}
+.tradeDetail table th{
+	color:#0096e0;
+	background-color: #f4f9ff;
+	border:1px solid #dddbdb;
+	height:38px;
+}
+.tradeDetail table td{
+	border:1px solid #dddbdb;
+	height:30px;
+}
+.tradeDetail table th, .tradeDetail table td{
+	font-size: 12px;
+}
+
+/*交易明细弹层结束*/
+.nav1 .nav1-sub .nav-quick .rightArea .account{
+	background:url("/static/front/images/coin.png") no-repeat scroll right -1066px transparent;
+	cursor:pointer;
+	/*padding-right:14px;*/
+	/*width:95px;*/
+	padding-left:2px;
+	float:right;
+	padding-right:10px;
+	margin-right:40px;
+	margin-top:5px;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .account span{
+	font-size:14px;
+	font-weight:700;
+	width:90px;
+	
+}
+
+/*.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li dd a{
+    color:#ffffff;
+}*/
+
+.fwq {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+
+/*safe*/
+.coinBox .coinBoxBody2{
+	background:none repeat scroll 0 0 #ffffff;
+	padding:10px 30px;
+}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinbody{
+	width:698px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:13px;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinbody a:hover{
+	text-decoration:none;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2  .code {
+	width:698px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:13px;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .gooleSpan{
+	height:25px;
+	line-height:25px;
+	float:left;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinleft{
+	width:100px;
+	float:left;
+}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinleft img{
+	margin:10px auto;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright{
+}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright li{
+	width:130px;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright .c-left{
+	width:410px;
+	line-height:20px;
+	padding-right:45px;
+	float:left;
+}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright .c-right{
+	padding-right:5px;
+	float:right;
+}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright .c-right li{
+	float:left;
+}
+
+
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright a.site{
+	margin-left:65px;
+	padding-top:26px;
+	padding-right:30px;
+}
+
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright  a img{
+	width:60px;
+	height:30px;
+	}
+.marketArea .rightArea .coinBox .coinBoxBody2 .coinright a.btnchoice{
+	height:20px;
+	line-height:20px;
+	/*float:right;*/
+	display:inline-block;
+	width:60px;
+	text-align:center;
+	*font-size:12px;
+	*padding-top:5px;
+	*padding-bottom:5px;
+}
+.button1{display:inline-block;border-radius:2px;padding:2px 2px;color:#464646;height:23px;width:70px;line-height:23px;float:right;font-size:12px;text-align:center;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;cursor:pointer;outline:0 nones;}
+.button2{display:inline-block;border-radius:2px;padding:2px 2px;color:#c1c1c1;height:23px;width:70px;line-height:23px;font-size:12px;text-align:center;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;cursor:pointer;outline:0 nones;}
+.button1-background{border:1px solid #9dd489;background:#f4fff8;background: -moz-linear-gradient(top,#f4fff8,#f4fff8 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#f4fff8), to(#f4fff8));}
+.button2-background{border:1px solid #e5e5e5;background:#fcfcfc;background: -moz-linear-gradient(top,#fcfcfc,#fcfcfc 120%);background: -webkit-gradient(linear, 0 0, 0 120%, from(#fcfcfc), to(#fcfcfc));}
+
+.lasttenorder1{
+	width:370px;
+	margin:10px 9px;
+	float:left;
+}
+
+/*实时委托开始*/
+.marketArea .rightArea1{
+	float:left;
+	/*margin-top:-6px;*/
+	/*padding-left:20px;*/
+	*padding-left:2px;
+}
+.marketArea .rightArea2{
+	float:left;
+	/*margin-top:-6px;*/
+	padding-left:10px;
+	*padding-left:5px;
+}
+
+.marketArea .rightArea3{
+	float:left;
+	width:775px;
+	margin-top:8px;
+}
+
+.rightArea3 .riskArea{
+	background:none repeat scroll 0 0 #fbe6aa;
+	margin-bottom:10px;
+	border:1px solid #f6c994;
+	vertical-align:middle;  
+}
+
+.rightArea3 .riskArea span.icon{
+	background:url("/static/front/images/coin.png") no-repeat  0 -984px transparent;
+	display:inline-block;
+	width:40px;
+	height:43px;
+	vertical-align:middle;  
+}
+
+.rightArea3 .riskArea span.hinttext{
+	display:inline-block;
+	width:720px;
+	line-height:22px;
+	vertical-align:middle;  
+}
+
+
+.rightArea3 .riskArea .define{
+	font-size:14px;
+	font-weight:700;
+}
+
+/*********************************************************新页面开始**********************************/
+/*********买卖BTC LTC *********/
+.selecttab1{
+	height:31px;
+	position:relative;
+	background:#f7f7f7;
+}
+.selecttab-box1{
+	position:sbsolute;
+	height:31px;
+}
+
+.selecttab-box1 li {
+	height:31px;
+	display:inline-block;
+	line-height:20px;
+	font-size:14px;
+	margin:0px;
+	float:left;
+	*font-size:14px;
+	*margin:0 6px 0 0;
+	padding-right:10px;
+}
+ 
+.selecttab-box1 li.refresh{
+	float:right;
+	width:312px;
+}
+
+.selecttab-box1 li.refresh .div1{
+	float:left;
+}
+ 
+.selecttab-box1 li.refresh .div2{
+	float:right;
+	margin-right:30px;
+}
+ 
+.selecttab-box1 li select{
+	width:50px;
+	height:22px;
+	float:left;
+	margin-top:5px;
+	margin-right:15px;
+}
+
+.selecttab-box1 li span{
+	margin-top:5px;
+	float:left;
+	color:#909090;
+	font-weight:600;
+}
+ 
+.selecttab-box1 li a{
+	position:relative;
+	_position:relative;
+	display:inline-block;
+	padding:7px 11px 4px 11px;
+	float:left;
+	color:#666666;
+	_padding:6px 10px 4px 10px;
+}
+
+.selecttab-box1 li a:hover{
+	color:#0096e0;
+	outline:none;
+	text-decoration:none;
+	float:left;
+	padding:7px 11px 4px 11px;
+	_padding:6px 10px 5px 10px;
+}
+
+.selecttab-box1 .cur a.buyBtcLtc{
+	background:none repeat scroll 0 0 #ffffff;
+	_background:none repeat scroll 0 0 #ffffff;
+	color:#068814;
+	outline:none;
+	text-decoration:none;
+	float:left;
+	border-top:1px solid #C3C1C1;
+	border-left:1px solid #C3C1C1;
+	border-right:1px solid #C3C1C1;	
+	padding:6px 10px 5px 10px;
+	_padding:6px 10px 5px 10px;
+	
+}
+
+.selecttab-box1 .cur a.sellBtcLtc{
+	background:none repeat scroll 0 0 #ffffff;
+	_background:none repeat scroll 0 0 #ffffff;
+	color:#e31f26;
+	outline:none;
+	text-decoration:none;
+	float:left;
+	border-top:1px solid #C3C1C1;
+	border-left:1px solid #C3C1C1;
+	border-right:1px solid #C3C1C1;	
+	padding:6px 10px 5px 10px;
+	_padding:6px 10px 5px 10px;
+}
+
+.selecttab-box1 .cur a.otherBoxTitle{
+	background:none repeat scroll 0 0 #ffffff;
+	_background:none repeat scroll 0 0 #ffffff;
+	color:#0096e0;
+	outline:none;
+	text-decoration:none;
+	float:left;
+	border-top:1px solid #C3C1C1;
+	border-left:1px solid #C3C1C1;
+	border-right:1px solid #C3C1C1;	
+	padding:6px 10px 5px 10px;
+	_padding:6px 10px 5px 10px;
+}
+
+/*登录前首页开始*/
+/*banner1开始*/
+.nav1{
+	height:30px; 
+	/*background:url("coin.png") repeat-x  0 -69px transparent;*/
+	width:100%;
+	min-width:980px;
+	background:url("/static/front/images/new_v1/top_donw_bg.png") repeat-x transparent;
+}
+.head .loaded-logo1{
+	float:left;
+	overflow:hidden;
+	margin-top:13px;
+}
+
+.head .loaded-logo1 img{
+	display:block;
+	height:59px;
+}
+
+.head .accountinfo1{								
+	font-size:14px;
+	float:right;
+	width:600px;
+	line-height:25px;
+}
+
+.head .accountinfo1 .nav2-up1{
+	padding-right:100px;
+	height:24px;
+}
+.head .accountinfo1 .nav2-up1 ul{
+	float:right;
+}
+
+.head .accountinfo1 .nav2-up1 li{
+	float:left;
+	display:inline-block;
+	padding-left:15px;
+	height:22px;
+	line-height:22px;
+}
+
+.button-blue2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+    background: #1279B4 none repeat scroll 0% 0%;
+    margin-top: 10px;
+    border: 1px solid #1279B4;
+}
+
+.button-blue2:hover {
+    color: #FFF;
+    text-decoration: none;
+    background: #1487C8 none repeat scroll 0% 0%;
+    border: 1px solid #1487C8;
+}
+.head .accountinfo1 .nav2-up1 li.text{
+	font-size:12px;
+	padding-top:2px;
+}
+
+.head .accountinfo1 .nav2-up1 li.frozen{
+	padding-left:20px;
+}
+
+.head .accountinfo1 .nav2-up1 li.finbutton{
+	display: inline-block;
+    width: 46px;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    text-align:center;
+    background:url("/static/front/images/new_v1/icon.png") no-repeat  0 -85px transparent;
+}
+
+.head .accountinfo1 .nav2-up1 span.money{
+/* 	width:75px; */
+	padding-left:10px;
+}
+.head .accountinfo1 .nav2-up1 span.finbutton{
+	display: inline-block;
+    width: 20px;
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    text-align:center;
+    background:url("/static/front/images/new_v1/icon.png") no-repeat  0 -87px transparent;
+}
+.head .accountinfo1 .nav2-up1 .allmoney{
+	padding-left:240px;
+}
+
+.head .accountinfo1 .nav2-up1 a:hover{
+	text-decoration: none;
+}
+
+.codeSpanBg{
+	background:url("/static/front/images/new_v1/explain.png") no-repeat scroll -18px 0px transparent;
+	height:18px;
+	line-height:18px;
+	padding-left:30px;
+	display:inline-block;
+	font-size:14px;
+	font-weight:300;
+}
+
+/*banner1结束*/
+/*banner2开始*/
+.nav2{
+	height:36px; 
+	width:100%;
+	min-width:980px;
+}
+
+.accountinfo1 .nav2-sub1{
+	margin:0 auto;
+	padding-top:1px;
+	_padding-top:1px;
+	*padding-top:3px;
+}
+.accountinfo1 .nav2-sub1 ul{
+	float:right;
+}
+
+.accountinfo1 .nav2-sub1 li{
+	float:left;
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	width:100px;
+	text-align:center;
+}
+
+.accountinfo1 .nav2-sub1 .menu li.cur{
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	color:#373737;
+	font-weight:700;
+	width:100px;
+	font-size:14px;
+}
+
+.accountinfo1 .nav2-sub1 .menu li.cur span{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#ff4500;
+	height:31px;
+	line-height:31px;
+	border-bottom:4px solid #ff6e00;
+}
+
+.accountinfo1 .nav2-sub1 .menu li.btc-trade{
+	width:120px;
+}
+
+.accountinfo1 .nav2-sub1 .menu li a{
+	color:#373737;
+}
+.accountinfo1 .nav2-sub1 .menu li a:hover{
+	color:#ff6e00;
+}
+
+/* .accountinfo1 .nav2-center{
+	height:23px;
+} */
+
+.accountinfo1 .nav2-center a:hover{
+	text-decoration: none;
+}
+
+.accountinfo1 .nav2-center ul{
+	float:right;
+	padding-right:40px;
+	margin-top: 20px;
+}
+.accountinfo1 .nav2-center ul li span.money{
+	font-size:12px;
+	padding-left:10px;
+	font-weight:700;
+}
+
+.accountinfo1 .nav2-center ul li span.ta{
+	padding-left:15px;
+}
+
+/*登录后首页开始*/
+
+/*登录前首页行情开始*/
+.bottomArea{
+	width:980px;
+	margin:0px auto 5px auto;
+}
+
+.bottomArea .Quotation{
+	width:980px;
+	padding-top:15px;
+}
+
+.bottomArea .Quotation tr.bg1{
+	background:#DBECF9;
+}
+
+.bottomArea .Quotation tr.bg2{
+	background:#FEF1E6;
+}
+.bottomArea .Quotation tr.bg3{
+	background:#EAFFE6;
+}
+.bottomArea .Quotation tr.bg4{
+	background:#eff1ff;
+}
+.bottomArea .Quotation th{
+	color:#333333;
+	font-weight:100;
+	border-bottom:1px solid #e1e1e1;
+	height:35px;
+}
+
+.bottomArea .Quotation td{
+	/*text-align:center;*/
+	height:35px;
+	border-bottom:1px solid #e1e1e1;
+	border-left:1px solid #e1e1e1;
+	color:#3A444B;
+}
+
+.bottomArea .Quotation td.buttomBorder{
+	border-bottom:3px solid #c1c1c1;
+}
+
+.bottomArea .Quotation td span{
+	width:50px;
+	float:left;
+}
+
+.bottomArea .Quotation td span.title-float{
+	padding-left:10px;
+}
+
+.bottomArea .Quotation td.bor-right{
+	border-right:1px solid #e1e1e1;
+}
+.bottomArea .Quotation td span.left{
+	margin-left:13px;
+}
+.bottomArea .Quotation td span.right{
+	margin-left:20px;
+	text-align:left;
+}
+/*登录前首页MTGOX.COM行情结束*/
+
+/*realtime*/
+.realtimebox{
+	width:100%;
+	width:680px;
+	*width:670px;
+	float:left;
+	padding-top:15px;
+}
+
+.more{
+	color:#373737;
+	font-size:12px;
+	margin-left:388px;
+}
+.realtimebox .realtimetop{
+	width:680px;
+	*width:670px;
+	/*background:#ffffff;*/
+}
+
+.realtimebox .realtimetop .solid{
+}
+
+.realtimebox .realtimetop .solid .box .title{
+	width:100%;
+	height:30px;
+	padding-bottom:10px;
+}
+
+.realtimebox .realtimetop .solid .box .title .more{
+	color:#373737;
+	font-size:12px;
+	float:right;
+}
+
+.realtimebox .realtimetop .solid .box .title .more li a{
+	color:#666666;
+}
+
+.realtimebox .realtimetop .solid .box .title .more li a:hover{
+	color:#0096e0;
+}
+
+.realtimebox .realtimetop .solid .box .title li{
+	float:left;
+	padding-right:5px;
+	font-size:12px;
+}
+
+.realtimebox .realtimetop .solid .box .title li.cur a{
+	display:inline-block;
+	color:#0096e0;
+	font-size:14px;
+	font-weight:700;
+}
+
+.realtimebox .realtimetop .solid .box .title li.cur a span{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	font-weight:700;
+	color:#0096e0;
+}
+
+.realtimebox .realtimetop .solid .box .title li a{
+	display:inline-block;
+	height:24px;
+	padding-left:5px;
+	margin-top:3px;
+	color:#aaaaaa;
+}
+.realtimebox .realtimetop .solid .box .title li a span{
+	font-weight:700;
+	font-size:14px;
+}
+
+.realtimebox .realtimetop .solid .box .title li a:hover{
+	color:#0096e0;
+}
+
+
+.realtimebox .realtimetop .solid .box .real-left{
+	width:332px;
+	*width:327px;
+	float:left;
+	border:1px solid #E4E4E4;
+}
+
+.realtimebox .realtimetop .solid .box .real-left table{
+	border-collapse: collapse;
+}
+.realtimebox .realtimetop .solid .box .real-left table.transaction{
+	width: 100%;
+}
+.realtimebox .realtimetop .solid .box .real-left table.transaction td{ 
+	border-bottom: 1px solid #E4E4E4;
+	text-align: center;
+	height:35px;
+	background:#ffffff;
+}
+
+.realtimebox .realtimetop .solid .box .real-left table.transaction tbody td span.buyspan{ 
+	background: none repeat scroll 0 0 #689700;
+	display: inline;
+	float: left;
+	height: 20px;
+	margin-left: -1px;
+	width: 13px;
+}
+
+.realtimebox .realtimetop .solid .box .real-left table.transaction th{
+	border-bottom: 1px solid #E4E4E4;
+	text-align: center;
+	background: none repeat scroll 0 0 #f1f1f1;
+	font-weight: 300;
+	height: 35px;
+	line-height: 35px;
+	color:#373737;
+}
+
+.realtimebox .realtimetop .solid .box .real-right{
+	width:332px;
+	*width:327px;
+	float:right;
+	border:1px solid #E4E4E4;
+}
+
+.realtimebox .realtimetop .solid .box .real-right table{
+	border-collapse: collapse;
+}
+.realtimebox .realtimetop .solid .box .real-right table.transaction{
+width: 100%;
+}
+.realtimebox .realtimetop .solid .box .real-right table.transaction td{ 
+	border-bottom: 1px solid #E4E4E4;
+	text-align: center;
+	height:35px;
+	background:#ffffff;
+
+}
+
+.realtimebox .realtimetop .solid .box .real-right table.transaction tbody td span.sellspan{
+	background: none repeat scroll 0 0 #E61F51;
+	display: inline;
+	float: left;
+	height: 20px;
+	margin-left: -1px;
+	width: 13px;
+}
+
+
+.realtimebox .realtimetop .solid .box .real-right table.transaction th{
+	border-bottom:1px solid #E4E4E4;
+	text-align: center;
+	background: none repeat scroll 0 0 #f1f1f1;
+	font-weight: 300;
+	height: 35px;
+	line-height: 35px;
+	color:#373737;
+}
+
+
+
+.realtimebox .realtimebottom{
+	width:678px;
+	*width:668px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.realtimebox .realtimebottom .solid{
+}
+
+.realtimebox .realtimebottom .solid .box .title{
+	width:100%;
+	height:30px;
+	padding-bottom:10px;
+}
+
+.realtimebox .realtimebottom .solid .box .title .more{
+	color:#373737;
+	font-size:12px;
+	float:right;
+}
+
+.realtimebox .realtimebottom .solid .box .title .more li a{
+	color:#666666;
+}
+
+.realtimebox .realtimebottom .solid .box .title .more li a:hover{
+	color:#0096e0;
+}
+
+.realtimebox .realtimebottom .solid .box .title li{
+	float:left;
+	padding-right:5px;
+	font-size:12px;
+}
+
+
+.realtimebox .realtimebottom .solid .box .title li.cur a{
+	display:inline-block;
+	color:#0096e0;
+	font-weight:700;
+	font-size:14px;
+	
+}
+
+.realtimebox .realtimebottom .solid .box .title li.cur a span{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	font-weight:700;
+	color:#0096e0;
+}
+
+.realtimebox .realtimebottom .solid .box .title li a{
+	display:inline-block;
+	height:24px;
+	padding-left:5px;
+	margin-top:3px;
+	color:#aaaaaa;
+}
+.realtimebox .realtimebottom .solid .box .title li a span{
+	font-weight:700;
+	font-size:14px;
+}
+
+.realtimebox .realtimebottom .solid .box .title li a:hover{
+	color:#0096e0;
+}
+
+.realtimebox .realtimebottom .solid .box .title .ttitle{
+	background: none repeat scroll 0 0 #D5D5D5;
+	border-bottom:1px solid #E4E4E4;
+	font-size:14px;
+	height:24px;
+	padding-left:15px;
+	padding-top:10px;
+}
+
+.realtimebox .realtimebottom .solid .box .real{
+	width:678px;
+	*width:668px;
+	border:1px solid #D5D5D5;
+}
+
+.realtimebox .realtimebottom .solid .box .real table{
+	border-collapse: collapse;
+}
+.realtimebox .realtimebottom .solid .box .real table.transaction{
+	width: 100%;
+	width:678px;
+	*width:668px;
+}
+.realtimebox .realtimebottom .solid .box .real table.transaction td{ 
+	border-bottom: 1px solid #E4E4E4;
+	text-align: center;
+	height:35px;
+	background:#ffffff;
+}
+
+.realtimebox .realtimebottom .solid .box .real table.transaction th{
+	border-bottom: 1px solid #E4E4E4;
+	text-align: center;
+	background: none repeat scroll 0 0 #F3F3F3;
+	font-weight: 300;
+	height: 35px;
+	line-height: 35px;
+	color:#373737;
+}
+
+/*登录前首页媒体动态开始*/
+.bottomArea .rightBottomArea1{
+	float:right;
+	width:285px;
+	*width:300px;
+	margin-top:10px;
+}
+
+.bottomArea .rightBottomArea1 .state{
+	display:inline-block;
+	font-size:14px;
+	font-weight:700;
+	height:30px;
+	line-height:25px;
+	background:url("/static/front/images/new_v1/icon.png") no-repeat  0 5px transparent;
+	padding-left:35px;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+.bottomArea .rightBottomArea1 .state2{
+	display:inline-block;
+	font-size:14px;
+	font-weight:700;
+	height:30px;
+	line-height:25px;
+	background:url("/static/front/images/new_v1/icon.png") no-repeat  0 -25px transparent;
+	padding-left:35px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.bottomArea .rightBottomArea1 .state3{
+	display:inline-block;
+	font-size:14px;
+	font-weight:700;
+	height:30px;
+	line-height:25px;
+	background:url("/static/front/images/new_v1/icon.png") no-repeat  0 -53px transparent;
+	padding-left:35px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+.bottomArea .rightBottomArea1 ul.stateList{
+	padding:0 0 11px 10px;
+	background:none repeat scroll 0 0 #ffffff;
+	border:1px solid #E4E4E4;
+	max-height:390px;
+}
+
+.bottomArea .rightBottomArea1 ul.stateList li{
+	line-height:20px;
+	padding-top:8px;
+	padding-bottom:7px;
+}
+.bottomArea .rightBottomArea1 ul.stateList li a{
+	color:#333333;
+}
+
+.bottomArea .rightBottomArea1 ul.stateList li a:hover{
+	color:#0096e0;
+}
+
+.bottomArea .rightBottomArea1 ul.stateList li a.item{
+	display:inline-block;
+	background:url("/static/front/images/coin.png") no-repeat  -275px -292px transparent;
+	height:20px;
+	line-height:20px;
+	padding-left:15px;
+}
+
+.bottomArea .rightBottomArea1 .conus{
+	display:inline-block;
+	width:285.bottomArea .rightBottomArea1 .conus li.qqli1px;
+}
+
+.bottomArea .rightBottomArea1 .conus .conus-weibo{
+	height:35px;
+	width:125px;
+	float:left;
+}
+
+.bottomArea .rightBottomArea1 .conus .conus-weixin{
+	height:35px;
+	width:125px;
+	float:left;
+	padding-left:18px;
+}
+
+.bottomArea .rightBottomArea1 .conus li.ul1{
+	float:left;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	padding-left:30px;
+	font-size:12px;
+}
+
+.bottomArea .rightBottomArea1 .conus li.ul2{
+	float:left;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	font-size:11px;
+}
+
+.bottomArea .rightBottomArea1 .conus .conus-weibo .conWeibo{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -114px transparent;
+	height:35px;
+	width:45px;
+	display:inline-block;
+}
+
+.bottomArea .rightBottomArea1 .conus .conus-weixin .conWeixin{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -173px transparent;
+	height:35px;
+	width:45px;
+	display:inline-block;
+	padding-left:10px;
+}
+
+.bottomArea .rightBottomArea1 .conus .conQQ{
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll -222px -1182px transparent;
+	display: inline-block;
+    height: 35px;
+    padding-left: 10px;
+	line-height:30px;
+	margin-left:3px;
+}
+.bottomArea .rightBottomArea1 .conus .conQQ .conQQ-left{
+	padding-left:5px;
+}
+.bottomArea .rightBottomArea1 .conus .qqli1{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -150px transparent;
+	padding-left:30px;
+	float:left;
+	color:#333333;
+	margin-left:3px;
+}
+
+.bottomArea .rightBottomArea1 .conus .phone{
+	background:url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0 -1188px transparent;
+	padding-left:30px;
+	float:left;
+	color:#333333;
+	margin-left:3px;
+}
+
+.bottomArea .rightBottomArea1 .conus .opption{
+	background:url("/static/front/images/new_v1/icon1.png") no-repeat scroll 0 -1364px transparent;
+	padding-left:30px;
+	float:left;
+	color:#333333;
+	margin-left:3px;
+}
+
+.bottomArea .rightBottomArea1 .conus li{
+	width:120px;
+}
+
+.bottomArea .rightBottomArea1 .conus li.qqli2{
+	padding-left:20px;
+	color:#333333;
+	float:left;
+}
+
+.bottomArea .rightBottomArea1 .conus li.qqli3{
+	color:#333333;
+	float:left;
+}
+
+/*登录前首页媒体动态结束*/
+
+/***下拉行情*/
+
+.nav1 .nav1-sub .f-center{
+	float:left;
+	width:500px;
+}
+
+.nav1 .nav1-sub .nav-quick1{
+	display:inline;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+.nav1 .nav1-sub .nav-quick1 .rightArea1{
+	padding-left:20px;
+	position:relative;
+	padding-top:10px;
+}
+
+.nav1 .nav1-sub .nav-quick1 .rightArea1 .loadMessage{
+	float:left;
+	margin-right:25px;
+	height:32px;
+	line-height:32px;
+	color:#fff;
+}
+
+.nav1 .nav1-sub .nav-quick1 a{
+	background:url("/static/front/images/new_v1/donw_n.png") no-repeat scroll transparent;
+	top:10px;
+	z-index:1;
+	left:-5px;
+	cursor:pointer;
+	padding-top:6px;
+	position:absolute;
+	width:35px;
+	height:27px;
+	text-decoration:none;
+}
+
+.nav1 .nav1-sub .nav-quick1 a:hover{ 
+	background:url("/static/front/images/new_v1/donw_h.png") no-repeat scroll transparent;
+}
+
+.nav1 .nav1-sub .nav-quick1 img{
+	top:10px;
+	z-index:1;
+	margin-left:-56px;
+	cursor:pointer;
+	padding-top:6px;
+	position:absolute;
+}
+
+/*****bigImage*****/
+/*登录前首页大图开始*/
+.bigImage1{
+	min-width:980px;
+	width:100%;
+	height:320px;
+	margin:-7px auto 0px;
+	overflow: hidden;
+	position:relative;
+	z-index:5;
+}
+
+.bigImage1 .bannerBackground{
+	background:url("/static/front/images/new_v1/banner_bg.jpg?6") center repeat scroll #3392E2;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity 800ms ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+
+.bigImage1 .bannerBackground .total{
+	line-height:60px;
+	padding-top:150px;
+	float:left;
+	height:120px;
+}
+
+.bigImage1 .bannerBackground .total td{
+	text-align:left;
+}
+
+.bigImage1 .bannerBackground .total span{
+	font-size:40px;
+	font-weight:700;
+	color:#ffffff;
+	text-shadow: 2px 2px 0px #939393;
+	font-family:黑体;
+}
+
+.bigImage1 .bannerBackground .total span.btcimg{
+	background:url("/static/front/images/new_v1/btc_logo.png") no-repeat scroll transparent;
+	height:37px;
+	width:37px;
+	display:inline-block;
+	float:left;
+	margin-top:10px;
+	margin-left:20px; 
+}
+
+.bigImage1 .bannerBackground .total span.ltcimg{
+	background:url("/static/front/images/new_v1/ltc_logo.png") no-repeat scroll transparent;
+	height:37px;
+	width:37px;
+	display:inline-block;
+	float:left;
+	margin-top:10px;
+	margin-left:110px;
+}
+
+.bigImage1 .bannerBackground .total span.spanbtcleft{
+	padding-left:10px;
+}
+
+.bigImage1 .bannerBackground .total span.spanltcleft{
+	padding-left:85px;
+}
+
+.shadow{
+	box-shadow:1px 1px 2px rgba(255,255,255,0.3)  inset;   
+    box-shadow:1px 1px 4px #000000; 
+}
+
+
+.bigImage1 .bge{
+	width:980px;
+	margin:0 auto;
+	z-index:25;
+	position:relative;
+}
+
+
+.bigImage1 .bge .dz{
+	width:300px;
+	height:270px;
+	right:0;
+	margin-top:34px;
+	position:absolute;
+	background:none repeat scroll 0 0 rgba(17, 17, 17, 0.45);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66111111, endColorstr=#66111111);
+  	*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66111111, endColorstr=#66111111)";
+}
+
+.button-blue1{
+	display:inline-block;
+	font-weight:700;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	width:263px;
+	height:32px;
+	line-height:32px;
+	background:#0096e0;
+}
+
+.button-blue1:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#0096e0;
+	font-weight:700;
+	font-size:16px;
+	display:inline-block;
+}
+
+
+.buttonGreen{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	width:170px;
+	height:32px;
+	line-height:32px;
+	background:#068814;
+	margin-top:10px;
+}
+
+.buttonGreen:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#068814;
+}
+
+.buttonRed{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	width:170px;
+	height:32px;
+	line-height:32px;
+	background:#E31F26;
+	margin-top:10px;
+}
+
+.buttonRed:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#E31F26;
+}
+
+.bigImage1 .bge .dz div.title{
+	font-weight:700;
+	font-size:14px;
+	color:#ffffff;
+	padding:20px 0 0 20px;
+}
+
+.indexLoginTips{
+	margin-left: 20px;
+	color: red;
+	background:#ffffff;
+}
+
+
+.bigImage1 .bge .dz .errorbg{
+	background:#fffbb5;
+	width:262px;
+	display:none;
+	height:25px;
+	line-height:25px;
+	float:left;
+}
+
+.bigImage1 .bge .dz .totpCodeError{
+	background:#fffbb5;
+	width:262px;
+	height:25px;
+	text-align:center;
+	color:#FF0000;
+	line-height:25px;
+	float:left;
+}
+
+.bigImage1 .bge .dz .errorbgDiv{
+	width:262px;
+	height:25px;
+	line-height:25px;
+	float:left;
+}
+
+.bigImage1 .bge .dz li.l1{
+	height:33px;
+	padding-left:20px;
+	margin-top:20px;
+}
+
+.bigImage1 .bge .dz li.l2{
+	height:33px;
+	padding-left:20px;
+	margin-top:20px;
+}
+.bigImage1 .bge .dz li.l3{
+	font-weight:700;
+	font-size:12px;
+	height:25px;
+	text-align:center;
+	color:#ff0000;
+	padding-left:20px;
+	padding-top:1px;
+}
+
+.bigImage1 .bge .dz li.l4{
+	height:33px;
+	padding-left:20px;
+}
+
+.bigImage1 .bge .dz li.l5{
+	height:25px;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+.bigImage1 .bge .dz li.l5 .forgetcode{
+	float:right;
+	padding-right:15px;
+	font-size:14px;
+}
+
+.bigImage1 .bge .dz li span.ttitle{
+	font-weight:700;
+	font-size:14px;
+	color:#ffffff;
+}
+
+.bigImage1 .bge .dz .dz-d{
+	width:220px;
+	height:32px;
+	line-height:32px;
+	color:#ffffff;
+	padding-left:35px;
+	padding-right:5px;
+	background: url("/static/front/images/new_v1/icon.png") no-repeat scroll -196px -176px transparent;
+	border:1px solid #888888;
+}
+
+.bigImage1 .bge .dz .dz-d:hover{
+	border:1px solid #0087d0;
+}
+
+.bigImage1 .bge .dz .dz-p{
+	width:220px;
+	height:32px;
+	line-height:32px;
+	padding-left:35px;
+	padding-right:5px;
+	color:#ffffff;
+	background: url("/static/front/images/new_v1/icon.png") no-repeat scroll -196px -146px transparent;
+	border:1px solid #888888;
+}
+
+.bigImage1 .bge .dz .dz-p:hover{
+	border:1px solid #0087d0;
+}
+
+.bigImage1 .bge .dz .dz-code{
+	width:110px;
+	height:32px;
+	line-height:32px;
+	padding-left:10px;
+	padding-right:5px;
+	color:#ffffff;
+	background:transparent;
+	border:1px solid #888888;
+}
+
+.bigImage1 .bge .dz .dz-code:hover{
+	border:1px solid #0087d0;
+}
+
+.bigImage1 .bge .dz .codepicture{
+	background:#ff0000;
+	height:32px;
+	line-height:32px;
+	display:inline-block;
+	width:120px;
+	margin-left:15px;
+}
+
+.bigImage1 .bge .dz .dz-con .c-QQ{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0px -151px transparent;
+	width:24px;
+}
+
+.bigImage1 .bge .dz .dz-con a.c-Wei{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0px -121px transparent;
+	width:15px;
+	height:20px;
+}
+
+.bigImage1 .bge .dz .dz-con{
+	width:300px;
+	padding-top:10px;
+}
+
+.bigImage1 .bge .dz .dz-con li{
+	float:left;
+	margin-top:0px;
+	margin-left:20px;
+	_margin-left:10px;
+}
+
+.bigImage1 .bge .dz .dz-con li a{
+	color:#eeeeee;
+}
+
+.bigImage1 .bge .dz .dz-con li :hover{
+	color:#0096e0;
+}
+
+.bigImage1 .bge .dz .dz-con li span{
+	line-height:30px;
+	height:30px;
+	margin-left:30px;
+}
+
+.bigImage1 .bge .dz .after-d{
+	width:285px;
+	margin-left:15px;
+}
+
+.bigImage1 .bge .dz .after-d .secondVerification{
+	width:245px;
+	height:32px;
+	line-height:32px;
+	padding-left:10px;
+	padding-right:5px;
+	color:#ffffff;
+	background:transparent;
+	border:1px solid #888888;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.bigImage1 .bge .dz .after-d .ttitle1{
+	font-weight:700;
+	font-size:14px;
+	color:#ffffff;
+	margin-top:15px;
+	width:280px;
+	display:block;
+}
+
+
+.bigImage1 .bge .dz .after-d .ttitle3{
+	font-size:12px;
+	color:#cccccc;
+	padding-top:10px;
+	width:280px;
+	display:block;
+}
+
+.bigImage1 .bge .dz .after-d .ttitle4{
+	font-size:12px;
+	color:#cccccc;
+	padding-top:20px;
+	display:block;
+}
+
+.bigImage1 .bge .dz .after-d .ttitle2{
+	font-weight:700;
+	font-size:16px;
+	color:#f9ac0d;
+	margin-top:10px;
+	padding-left:15px;
+	width:270px;	
+	display:block;
+}
+
+.bigImage1 .bge .dz .after-d .num1{
+	padding-top:10px;
+}
+
+.bigImage1 .bge .dz .after-d .num1 .num1-title1{
+	padding-left:15px;
+}
+
+.bigImage1 .bge .dz .after-d .num1 .num1-title2{
+	padding-left:52px;
+}
+
+.bigImage1 .bge .dz .after-d .num1 .num1-title3{
+	padding-left:10px;
+}
+
+.bigImage1 .bge .dz .after-d .num1 .num1-qq{
+	background:url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -151px transparent;
+}
+.bigImage1 .bge .dz .after-d .num1 .pleft{
+	padding-left:30px;
+}
+
+.bigImage1 .bge .dz .after-d .num1 .pleft a{
+	padding-left:5px;
+}
+.bigImage1 .bge .dz .after-d .num1 span.num1-finbutton{
+	background: url("/static/front/images/new_v1/icon.png") no-repeat scroll 0 -88px transparent;
+    display: inline-block;
+    width: 20px;
+    margin-left:15px;
+}
+
+.button-blue3{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	width:265px;
+	height:32px;
+	line-height:32px;
+	background:#0096e0;
+	margin-top:10px;
+	}
+
+.button-blue3:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#0096e0;
+	}
+	
+.bigImage1 .controlBackground{
+ 	height: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 80px;
+    z-index: 20;
+    height:50px;
+    bottom:10px;
+    left:659px;
+}
+
+.slide-number {
+    bottom:0px;
+    padding: 8px 0 9px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+
+.slide-number a {
+    background:url("/static/front/images/code/rolling_n.png") no-repeat;
+    display: block;
+    float: left;
+    height: 14px;
+    margin: 0 10px 0 0;
+    outline: medium none;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 14px;
+}
+
+.slide-number .slide-number-active {
+    background:url("/static/front/images/code/rolling_h.png") no-repeat;
+}
+.bigImage1 .bannerBackgroundVote{
+	background:url("/static/front/images/new_v1/banner_bg2.jpg?8") center repeat scroll #3392E2;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity 800ms ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+
+.bigImage1 .immediateVote{
+	width:980px;
+	position: relative;
+	margin:0 auto;
+	z-index:25;
+}
+
+.bigImage1 .immediateVote .announcement{
+	position:absolute;
+	display:inline-block;
+	width:500px;
+	height:35px;
+	left:225px;
+	top:5px;
+	background:none repeat scroll 0 0 rgba(247, 244, 236, 0.75);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66F7F4EC, endColorstr=#66F7F4EC);
+  	*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66F7F4EC, endColorstr=#66F7F4EC)";
+	border-bottom:1px solid #999999;
+	 border-radius: 5px 5px 5px 5px;
+}
+
+.bigImage1 .immediateVote .announcement .newsIcon{
+	background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 0px -1208px transparent;
+	display:inline-block;
+	width:25px;
+	height:35px;
+	margin-left:15px;
+	float:left;
+}
+
+.bigImage1 .immediateVote .announcement .newsContent{
+	float:left;
+	line-height:35px;
+	padding-left:5px;
+}
+
+.bigImage1 .immediateVote .announcement .newsMore{
+	float:right;
+	line-height:35px;
+	padding-right:15px;
+}
+/******公告******/
+.announcement .news{
+	width:980px;
+	background:#F6C994;
+	height:35px;
+	margin:-7px auto 0px;
+}
+
+.announcement .news .newsContent{
+	float:left;
+	line-height:35px;
+}
+
+
+.J-slide {
+    height: 400px;
+    float:left;
+    z-index:10;
+}
+
+.J-slide .slide {
+    height: 320px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/*登录前首页大图结束*/
+/***bigimage下联系我们****/
+.connectus{
+	width:100%;
+	background:#e7e7e7;
+	height:60px;
+	border-bottom: 1px solid #D1D1D1;
+}
+
+.connectus .content{
+	width:980px;
+	height:60px;
+	line-height:60px;
+	margin:0 auto;
+}
+.connectus .content ul{
+	height:60px;
+}
+.connectus .content li{
+	height:60px;
+	line-height:60px;
+	width:175px;
+	float:left;
+}
+
+.connectus .content li div{
+	width:175px;
+	float:center;
+	height:40px;
+	padding-top:10px;
+}
+
+.connectus .content span.public{
+	width:36px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	float:left;
+}
+
+.connectus .content span.weibo{
+	background:url("/static/front/images/new_v1/connectus.png") no-repeat scroll 0 0px transparent;
+}
+
+.connectus .content span.weixin{
+	background:url("/static/front/images/new_v1/connectus.png") no-repeat scroll 0 -72px transparent;
+}
+
+.connectus .content span.companyQQ{
+	background:url("/static/front/images/new_v1/connectus.png") no-repeat scroll 0 -36px transparent;
+}
+.connectus .content span.phoneImge{
+	background:url("/static/front/images/new_v1/connectus.png?3") no-repeat scroll 0 -144px transparent;
+}
+
+.connectus .content span.QQgroup{
+	background:url("/static/front/images/new_v1/connectus.png?3") no-repeat scroll 0 -108px transparent;
+}
+.connectus .content span.weibosite{
+	height:36px;
+	line-height:18px;
+	width:130px;
+	float:left;
+	padding-left:10px;
+	_padding-left:5px;
+}
+
+.connectus .content span.weibosite .padding-left{
+	padding-left:13px;
+}
+
+.connectus .content span.comQQbosite{
+	height:36px;
+	line-height:18px;
+	width:98px;
+	padding-left:10px;
+	float:left;
+}
+.connectus .content span.weixinsite{
+	height:36px;
+	line-height:18px;
+	width:95px;
+	padding-left:10px;
+	float:left;
+}
+
+.connectus .content span.phoneLink{
+	height:36px;
+	line-height:18px;
+	width:145px;
+	padding-left:10px;
+	float:left;
+}
+ 
+.connectus .content span.homePageQQGroup{
+	height:36px;
+	line-height:18px;
+	width:210px;
+	float:left;
+	padding-left:10px;
+}
+/***return***/
+
+.backtop1{
+	position:fixed;
+	right:-1px;
+	top:126px;	
+}
+.backtop2{
+	position:fixed;
+	right:-1px;
+	top:167px;	
+}
+.within2{
+	overfllow:hidden;
+	z-index:40;
+	background:#ffffff;
+	width:134px;
+}
+.within2 a{
+	border: 1px solid #E1E1E1;
+	height:45px;
+	display:inline-block;
+	float:left;
+}
+
+.within2 a span.word{
+	display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+    font-size:14px;
+    float:left;
+    width:90px;
+    font-size:12px;
+}
+
+.within2 a.borderNone{
+	border-top:none;
+}
+
+.within2 a .help{
+	background:url("/static/front/images/new_v1/help.png") no-repeat scroll transparent;
+	display: inline-block;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 2px;
+    width:40px;
+    float:left;
+}
+
+.within2 a .QQcompany{
+	background:url("/static/front/images/new_v1/qq.png") no-repeat scroll transparent;
+	display: inline-block;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 2px;
+    width:40px;
+    float:left;
+}
+
+.within2 a .phone{
+	background:url("/static/front/images/new_v1/phone.png") no-repeat scroll transparent;
+	display: inline-block;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 2px;
+    width:40px;
+    float:left;
+}
+
+.within1{
+	overfllow:hidden;
+	z-index:40;
+}
+
+.within1 a{
+	height:40px;
+	display:inline-block;
+	float:left;
+	
+}
+
+.within1 a.okRight{
+	background:url("/static/front/images/new_v1/left.png") no-repeat scroll transparent;
+    margin-top: 2px;
+    margin-left: 2px;
+    width:132px;
+    background:#ffffff;
+    border: 1px solid #E1E1E1;
+}
+
+.within1 a.okLeft{
+	background:url("/static/front/images/new_v1/left.png") no-repeat scroll transparent;
+    width:32px;
+    float:left;
+    border: 1px solid #E1E1E1;
+    height:32px;
+    margin-top:2px;
+}
+
+
+.within1 a span.left{
+	background:url("/static/front/images/new_v1/left.png") no-repeat scroll transparent;
+	display: inline-block;
+    height: 32px;
+    width:32px;
+    float:left;
+}
+.within1 a span.right{
+	background:url("/static/front/images/new_v1/right.png") no-repeat scroll transparent;
+	display: inline-block;
+    height: 40px;
+    margin-top: 4px;
+    width:40px;
+    float:left;
+}
+
+.within1 a span.word{
+	display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+    font-size:14px;
+    float:left;
+    width:85px;
+}
+
+/****行情下拉框*****/
+
+.blind{
+	background:#ffffff;
+	left:0;
+	top:400px;
+	width:100%;
+}
+
+.blind .bigchart{
+	background:#ffffff;
+	height:400px;
+	text-align:center;
+	margin-top: -400px;
+}
+
+.bigchartBar{
+	left:20px;
+	width:100%;
+	height:25px;
+	line-height:22px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.bigchartBar .webtitle ul{
+	height:25px;
+	float:left;
+}
+
+.bigchartBar .webtitle ul li{
+	float:left;
+	padding-left:15px;
+	font-size:14px;
+	font-weight:700;
+}
+
+.bigchartBar .webtitle ul li.cur a span{
+	color:#0096e0
+}
+
+.bigchartBar .webtitle ul li a{
+	color:#556472;
+}
+
+.bigchartBar .webtitle ul li a:hover{
+	color:#f3b118;
+}
+
+.bigchartBar .time{
+	float:right;
+	padding-right:20px;
+	text-align:center;
+}
+
+.bigchartBar .time li{
+	float:left;
+	width:60px;
+	border:1px solid #999999;
+	margin-left:15px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.bigchartBar .time li a{
+	font-size:12px;
+	text-align:center;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#666666;
+	width:60px;
+}
+
+.bigchartBar .time li a:hover{
+	color:#ff6e00;
+}
+
+.bigchartBar .time li:hover{
+	border:1px solid #0096e0;
+}
+
+.bigchartBar .time li.cur{
+	border:1px solid #ff6e00;
+	font-weight:500;
+}
+
+.bigchartBar .out{
+	height:25px;
+	width:25px;
+	margin-bottom:2px;
+}
+
+.bigchartBar .out span{
+	height:30px;
+}
+
+
+/****entrustTen页面***/
+.entrustTen .Tentitle{
+	font-size:14px;
+	font-weight:700;
+	padding:15px 0 10px 5px;
+}
+
+.entrustTen .Tentitle a{
+	float:right;
+}
+
+.entrustTen .Tenbody{
+	 background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.entrustTen .Tenbody .tenBodyTitle{
+	padding: 6px 0px;
+	font-size: 13px;
+}
+
+.entrustTen .Tenbody .tenBodyTitle a{
+	display:inline-block;
+	height:27px;
+	line-height:27px;
+	width:65px;
+	text-align:center;
+	border-radius:3px;
+	color:#444444;
+	margin-left:10px;
+}
+
+.entrustTen .Tenbody .tenBodyTitle a:hover{
+	text-decoration:none;
+	background:#CBE9F1;
+}
+
+.entrustTen .Tenbody .tenBodyTitle a.cur{
+	background:#0096e0;
+	color:#ffffff;
+}
+
+/***邮件****/
+.emailSucessLeft{
+	background: url("/static/front/images/new_v1/successIcon.png") no-repeat 50px 50px scroll transparent;
+	padding-top:225px;
+	width:160px;
+	float:left;
+	height:100%;
+}
+
+.emailSucessRight{
+	float:left;
+	line-height:30px;
+	padding-top:30px;
+}
+
+.emailSucessRight span{
+/* 	padding-right:5px; */
+}
+
+.emailSucessRight span.verifySpan{
+	float:left;
+	line-height:90px;
+}
+
+.emailSucess .dialogClosed{
+	position:relative;
+	background:url("/static/front/images/new_v1/close_p.png") no-repeat scroll transparent;
+	float:right;
+	margin:5px 5px 5px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+}
+
+.emailSucess .dialogClosed:hover{
+	background:url("/static/front/images/new_v1/close_d.png") no-repeat scroll transparent;
+}
+
+.emailSucess a{
+	margin-top:20px;
+}
+
+/****提现地址弹窗****/
+.dialog_body .PopLayer{
+	
+}
+
+.dialog_body .PopLayer li{
+	line-height:30px;
+	padding-top:5px;
+} 
+
+.dialog_body .PopLayer input{
+	line-height:25px;
+	height:25px;
+}
+
+.dialog_body .displayBankNumberNew{
+	position:absolute;
+	left:237px;
+	top:58px;
+	z-index:3;
+	background:#FFFFE4;
+	height:25px;
+	line-height:25px;
+	border:1px solid #e4e4e4;
+	font-weight:600;
+	font-size:16px;
+	min-width:150px;
+	text-align:float;
+}
+
+.dialog_body .displayBankNumberNew2{
+	position:absolute;
+	left:237px;
+	top:92px;
+	z-index:3;
+	background:#FFFFE4;
+	height:25px;
+	line-height:25px;
+	border:1px solid #e4e4e4;
+	font-weight:600;
+	font-size:16px;
+	min-width:150px;
+	text-align:float;
+}
+
+.dialog_body .PopLayer .c1{
+	padding-left:13px;
+}
+
+.dialog_body .PopLayer .c2{
+	padding-left:15px;
+}
+.dialog_body .PopLayer .c3{
+	padding-left:38px;
+}
+.dialog_body .PopLayer .c4{
+	padding-left:13px;
+}
+
+.dialog_body .PopLayer .c5{
+	padding-left:103px;
+}
+/*****/
+
+
+.coinBox .coinBoxBody ul.rmbout{
+	padding:10px 0;
+}
+.coinBox .coinBoxBody ul.rmbout li{
+	padding:8px 0;
+}
+.coinBox .coinBoxBody ul.rmbout li .displayBankNumber{
+	position:absolute;
+	left:113px;
+	top:-23px;
+	z-index:3;
+	background:#FFFFE4;
+	height:32px;
+	line-height:32px;
+	border:1px solid #e4e4e4;
+	font-weight:600;
+	font-size:16px;
+	min-width:200px;
+}
+.coinBox .coinBoxBody ul.rmbout li .c1{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	text-align:right;
+	padding-right:10px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody ul.rmbout li .c2{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	text-align:right;
+	padding-right:13px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody ul.rmbout li input{
+	width:200px;
+	height:30px;
+	line-height:30px;
+}
+
+.coinBox .coinBoxBody ul.rmbout li select{
+	width:150px;
+	height:22px;
+}
+
+.coinBox .coinBoxBody ul.rmbout li .sendmsg{
+	width:88px;
+	height:30px;
+}
+
+/*****发送邮件****/
+
+
+
+.emailErrorIcon{
+	background: url("/static/front/images/email/errorIcon.png") no-repeat 50px 50px scroll transparent;
+	padding-top:225px;
+	width:160px;
+	float:left;
+	height:100%;
+}
+
+/******汇款单确认********/
+.onlineRecharge .blankRemittance{
+	width:690px;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+.onlineRecharge .blankRemittance .topTitle{
+	font-size:20px;
+	color:#999999;
+	padding-bottom:10px;
+	display:inline-block;
+	font-weight:700;
+}
+
+.onlineRecharge .blankRemittance ul{
+	padding-left:20px;
+}
+
+.onlineRecharge .blankRemittance ul li{
+	height:35px;
+	line-height:35px;
+}
+
+.onlineRecharge .blankRemittance ul li span.c1{
+	display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+.onlineRecharge .blankRemittance ul li span.c2{
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.onlineRecharge .blankRemittance ul li span input.blankInformation{
+	height:25px;
+	width:220px;
+}
+
+.onlineRecharge .blankRemittance .returnbackground{
+	color:#333333;
+	padding-left:20px;
+	float:left;
+	display:inline-block;
+	line-height:60px;
+}
+
+.onlineRecharge .blankRemittance ul li span label{
+	padding-left:20px;
+}
+
+.onlineRecharge .blankRemittance .bankRechargeSucess{
+	background: url("/static/front/images/new_v1/successIcon.png") no-repeat 1px 1px scroll transparent;
+	padding-top:65px;
+	width:70px;
+	float:left;
+	height:100%;
+}
+
+.buttonblue3{
+	display:inline-block;
+	font-weight:700;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	width:120px;
+	height:32px;
+	line-height:32px;
+	background:#0096e0;
+	margin-left:120px;
+	
+}
+
+.buttonblue3:hover{
+	color:#fff;
+	text-decoration: none;
+	background:#0096e0;
+}
+
+/*****luckmoney***/
+.bigImage1 .banner{
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    transition: opacity 800ms ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+
+.bigImage1 .immediateLuck{
+	position:absolute;
+	bottom:23px;
+	left:230px;
+	height:71px;
+	line-height:35px;
+}
+
+.bigImage1 .immediateLuck a{
+	float:left;
+	display:inline-block;
+	width:306px;
+	height:71px;
+	 border-radius: 5px 5px 5px 5px;
+	 displau:inline-block;
+	 left: 132px;
+    position: absolute;
+}
+
+.rr {
+    float: right;
+}
+.nav-bar {
+	height: 22px;
+	margin-top: 11px;
+	overflow: hidden;
+	width: 786px;
+}
+.nav-bar ul {
+    width: 786px;
+}
+.nav-bar li {
+    border-right: 1px solid #CCCCCC;
+    float: left;
+}
+.nav-bar li a {
+    color: black;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 86px;
+}
+
+.nav-bar li.cur a, .nav-bar li a:hover {
+    color: #0096e0;
+    text-decoration: none;
+}
+.nav-bar li.cur a, .nav-bar li.cur a {
+    color: #0096e0;
+    text-decoration: none;
+}
+
+.accountinfo1 .nav2-center .frozen a {
+    border: 1px solid #ffffff;
+}
+
+
+.accountinfo1 .nav2-center .frozen span.clearMoney {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.frozen a.totalAssets {
+    background: url("/static/front/images/new_v1/icon_new.png?3") no-repeat scroll 0 -379px transparent;
+    border: medium none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    width: 18px;
+    z-index: 30;
+    margin-bottom:-8px;
+}
+
+.accountinfo1 .nav2-center .classDiv1 {
+    float: right;
+    padding-right: 10px;
+}
+
+.accountinfo1 .nav2-center .frozen a.totalAssets span.controlUp {
+    margin-left: 7px;
+}
+.accountinfo1 .nav2-center .frozen a.totalAssets span.controlDown {
+    margin-left: 7px;
+}
+.accountinfo1 .nav2-center .frozen .totalAssetsTable {
+    background: none repeat scroll 0 0 #f7f9fb;
+    border-radius: 5px 0 5px 5px;
+    box-shadow: 0 2px 2px #bdd0db;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 545px;
+}
+.accountinfo1 .nav2-center .frozen .totalAssetsTable table {
+    line-height: 30px;
+}
+.accountinfo1 .nav2-center .frozen .totalAssetsTable td.totalTitle {
+    padding-left: 10px;
+    vertical-align: text-top;
+}
+.accountinfo1 .nav2-center .frozen .totalAssetsTable td.title {
+    padding-left: 10px;
+}
+.accountinfo1 .nav2-center .frozen .totalAssetsTable td.topBorder {
+    border-top: 1px solid #e4e4e4;
+}
+
+.okcoinPop .small_content {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #636363;
+    border-radius: 5px;
+    color: #333;
+    left: 50%;
+    margin: -134px 0 0 -210px;
+    position: fixed !important;
+    top: 50%;
+    width: 430px;
+    z-index: 102;
+}
+
+.head .accountinfo1 .nav2-up1 ul {
+    float: right;
+}
+.head .accountinfo1 .nav2-up1 li {
+    display: inline-block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 15px;
+}
+.head .accountinfo1 .nav2-up1 li .dataTitle {
+    background: none repeat scroll 0 0 #e6e9ed;
+    border-radius: 3px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+.head .accountinfo1 .nav2-up1 li.text {
+    font-size: 12px;
+    padding-top: 2px;
+}
+.accountinfo1 .nav2-center .frozen {
+    padding-left: 20px;
+    position: relative;
+    z-index: 34;
+}
+.accountinfo1 .nav2-center .frozen span.clearMoney {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marketArea .leftMenu .items1 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -326px transparent;
+}
+.marketArea .leftMenu li:hover a.items1 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -326px transparent;
+}
+.marketArea .leftMenu .items1cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -326px transparent;
+}
+.marketArea .leftMenu .items2 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -356px transparent;
+}
+.marketArea .leftMenu li:hover a.items2 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -356px transparent;
+}
+.marketArea .leftMenu .items2cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -356px transparent;
+}
+.marketArea .leftMenu .items3 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -386px transparent;
+}
+.marketArea .leftMenu li:hover a.items3 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -386px transparent;
+}
+.marketArea .leftMenu .items3cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -228px -386px transparent;
+}
+.marketArea .leftMenu .items4 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -416px transparent;
+}
+.marketArea .leftMenu li:hover a.items4 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -416px transparent;
+}
+.marketArea .leftMenu .items4cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -228px -416px transparent;
+}
+.marketArea .leftMenu .items5 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -477px transparent;
+}
+.marketArea .leftMenu li:hover a.items5 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -477px transparent;
+}
+.marketArea .leftMenu .items5cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -477px transparent;
+}
+.marketArea .leftMenu .items6 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1959px transparent;
+}
+.marketArea .leftMenu li:hover a.items6 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1959px transparent;
+}
+.marketArea .leftMenu .items6cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1979px transparent;
+}
+.marketArea .leftMenu .items7 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -537px transparent;
+}
+.marketArea .leftMenu li:hover a.items7 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -537px transparent;
+}
+.marketArea .leftMenu .items7cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -225px -537px transparent;
+}
+.marketArea .leftMenu .items8 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -567px transparent;
+}
+.marketArea .leftMenu li:hover a.items8 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -567px transparent;
+}
+.marketArea .leftMenu .items8cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -567px transparent;
+}
+.marketArea .leftMenu .items9 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -597px transparent;
+}
+.marketArea .leftMenu li:hover a.items9 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -597px transparent;
+}
+.marketArea .leftMenu .items9cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -228px -597px transparent;
+}
+.marketArea .leftMenu .items10 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -657px transparent;
+}
+.marketArea .leftMenu li:hover a.items10 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -657px transparent;
+}
+.marketArea .leftMenu .items10cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -228px -657px transparent;
+}
+.marketArea .leftMenu .items11 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -687px transparent;
+}
+.marketArea .leftMenu li:hover a.items11 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -687px transparent;
+}
+.marketArea .leftMenu .items11cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -687px transparent;
+}
+.marketArea .leftMenu .items12 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1125px transparent;
+}
+.marketArea .leftMenu li:hover a.items12 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1125px transparent;
+}
+.marketArea .leftMenu .items12cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -230px -1125px transparent;
+}
+.marketArea .leftMenu .items13 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1155px transparent;
+}
+.marketArea .leftMenu li:hover a.items13 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1155px transparent;
+}
+.marketArea .leftMenu .items13cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -230px -1155px transparent;
+}
+.marketArea .leftMenu .items14 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1365px transparent;
+}
+.marketArea .leftMenu li:hover a.items14 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1365px transparent;
+}
+.marketArea .leftMenu .items14cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -1365px transparent;
+}
+.marketArea .leftMenu .items15 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1395px transparent;
+}
+.marketArea .leftMenu li:hover a.items15 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -1395px transparent;
+}
+.marketArea .leftMenu .items15cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -1395px transparent;
+}
+.marketArea .leftMenu .items16 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 2px -1456px transparent;
+}
+.marketArea .leftMenu li:hover a.items16 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 2px -1456px transparent;
+}
+.marketArea .leftMenu .items16cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -230px -1456px transparent;
+}
+.marketArea .leftMenu .items17 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2141px transparent;
+}
+.marketArea .leftMenu li:hover a.items17 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2141px transparent;
+}
+.marketArea .leftMenu .items17cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -226px -2141px transparent;
+}
+.marketArea .leftMenu .items18 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2168px transparent;
+}
+.marketArea .leftMenu li:hover a.items18 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2168px transparent;
+}
+.marketArea .leftMenu .items18cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -226px -2168px transparent;
+}
+.marketArea .leftMenu .items19 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2196px transparent;
+}
+.marketArea .leftMenu li:hover a.items19 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2196px transparent;
+}
+.marketArea .leftMenu .items19cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -228px -2196px transparent;
+}
+.marketArea .leftMenu .items20 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2223px transparent;
+}
+.marketArea .leftMenu li:hover a.items20 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2223px transparent;
+}
+.marketArea .leftMenu .items20cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -2223px transparent;
+}
+.marketArea .leftMenu .items21 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2373px transparent;
+}
+.marketArea .leftMenu li:hover a.items21 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2373px transparent;
+}
+.marketArea .leftMenu .items21cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -225px -2373px transparent;
+}
+.marketArea .leftMenu .items22 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2575px transparent;
+}
+.marketArea .leftMenu li:hover a.items22 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2575px transparent;
+}
+.marketArea .leftMenu .items22cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -2575px transparent;
+}
+.marketArea .leftMenu .items23 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2595px transparent;
+}
+.marketArea .leftMenu li:hover a.items23 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2595px transparent;
+}
+.marketArea .leftMenu .items23cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -225px -2595px transparent;
+}
+.marketArea .leftMenu .items24 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -1px -2699px transparent;
+}
+.marketArea .leftMenu li:hover a.items24 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -1px -2699px transparent;
+}
+.marketArea .leftMenu .items24cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -2699px transparent;
+}
+.marketArea .leftMenu .items25 {
+    background: url("/static/front/images/new_v1/icon1.png?1010") no-repeat scroll 0 -2975px transparent;
+}
+.marketArea .leftMenu li:hover a.items25 {
+    background: url("/static/front/images/new_v1/icon1.png?1010") no-repeat scroll 0 -2975px transparent;
+}
+.marketArea .leftMenu .items25cur {
+    background: url("/static/front/images/new_v1/icon1.png?1010") no-repeat scroll -224px -2975px transparent;
+}
+.marketArea .leftMenu .items26 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2005px transparent;
+}
+.marketArea .leftMenu li:hover a.items26 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2005px transparent;
+}
+.marketArea .leftMenu .items26cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -224px -2005px transparent;
+}
+.marketArea .leftMenu .items27 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2033px transparent;
+}
+.marketArea .leftMenu li:hover a.items27 {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll 0 -2033px transparent;
+}
+.marketArea .leftMenu .items27cur {
+    background: url("/static/front/images/new_v1/icon1.png?105") no-repeat scroll -227px -2033px transparent;
+}
+.selecttabNew {
+    background: none repeat scroll 0 0 #f7f7f7;
+    height: 32px;
+}
+.selecttabboxNew {
+    height: 32px;
+}
+.selecttabboxNew li {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 31px;
+    line-height: 20px;
+    margin: 0;
+    padding-right: 10px;
+    width: 210px;
+}
+.selecttabboxNew li.refresh {
+    float: right;
+    width: 312px;
+}
+.selecttabboxNew li.refresh .div1 {
+    float: left;
+}
+.selecttabboxNew li.refresh .div2 {
+    float: right;
+    margin-right: 30px;
+}
+.selecttabboxNew li select {
+    float: left;
+    height: 22px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 50px;
+}
+.selecttabboxNew li span {
+    color: #909090;
+    float: left;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.selecttabboxNew li a {
+    color: #666666;
+    display: inline-block;
+    float: left;
+    padding: 7px 11px 4px;
+    position: relative;
+    text-align: center;
+    width: 190px;
+}
+.selecttabboxNew li a:hover {
+    color: ##0096e0;
+    float: left;
+    outline: medium none;
+    padding: 7px 11px 4px;
+    text-decoration: none;
+}
+.selecttabboxNew .cur a.buyBtcLtc {
+    background: none repeat scroll 0 0 #ffffff;
+    border-left: 1px solid #c3c1c1;
+    border-right: 1px solid #c3c1c1;
+    border-top: 2px solid #068814;
+    color: #068814;
+    float: left;
+    outline: medium none;
+    padding: 6px 10px 5px;
+    text-decoration: none;
+    width: 190px;
+}
+.selecttabboxNew .cur a.sellBtcLtc {
+    background: none repeat scroll 0 0 #ffffff;
+    border-left: 1px solid #c3c1c1;
+    border-right: 1px solid #c3c1c1;
+    border-top: 2px solid #e31f26;
+    color: #e31f26;
+    float: left;
+    outline: medium none;
+    padding: 6px 10px 5px;
+    text-decoration: none;
+    width: 190px;
+}
+.selecttabboxNew .cur a.otherBoxTitle {
+    background: none repeat scroll 0 0 #ffffff;
+    border-left: 1px solid #c3c1c1;
+    border-right: 1px solid #c3c1c1;
+    border-top: 2px solid #329ddc;
+    color: #329ddc;
+    float: left;
+    outline: medium none;
+    padding: 6px 10px 5px;
+    text-decoration: none;
+    width: 190px;
+}
+.slider3 {
+    background: url("/static/front/images/percentbg.png") no-repeat scroll 0 0 transparent;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 14px;
+    width: 212px;
+}
+.barGreen {
+    background-color: #1fa32d;
+    border: medium none;
+    border-radius: 2px 0 0 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 0;
+}
+.barRed {
+    background-color: #e31f26;
+    border: medium none;
+    border-radius: 2px 0 0 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 0;
+}
+.bar3 {
+    background: url("/static/front/images/percenticon.png") no-repeat scroll 0 0 transparent;
+    border-radius: 3px;
+    margin-top: -7px;
+    height: 16px;
+    position: absolute;
+    width: 16px;
+}
+.percentCirclebgFirst {
+    display: inline-block;
+    height: 20px;
+    left: -6px;
+    position: absolute;
+    top: -6px;
+    width: 160px;
+}
+.percentCirclebgred {
+    background: url("/static/front/images/percentcirclered.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    line-height: 8px;
+    position: absolute;
+    width: 8px;
+}
+.percentCirclebgone {
+    background: url("/static/front/images/transparent.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    left: 44px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+.percentCirclebg0 {
+    background: url("/static/front/images/percentcircle.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    line-height: 8px;
+    position: absolute;
+    width: 8px;
+}
+.percentCirclebg1 {
+    background: url("/static/front/images/percentcirclered.png") no-repeat scroll 0 0 transparent;
+    height: 8px;
+    line-height: 8px;
+    position: absolute;
+    width: 8px;
+}
+.percentCirclebgPosition {
+    background: url("/static/front/images/transparent.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    left: 44px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+.percentCirclebgPositionOne {
+    display: inline-block;
+    height: 20px;
+    left: 44px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+.percentCirclebgTransparent {
+    background: url("/static/front/images/transparent.png") no-repeat scroll 0 0 transparent;
+}
+.percentCirclebgPositionBg0 {
+    background: url("/static/front/images/greencircle.png") no-repeat scroll 0 0 transparent;
+}
+.percentCirclebgPositionBg1 {
+    background: url("/static/front/images/redcircle.png") no-repeat scroll 0 0 transparent;
+}
+.percentCirclebgPositionTwo {
+    display: inline-block;
+    height: 20px;
+    left: 95px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+.percentCirclebgPositionThree {
+    display: inline-block;
+    height: 20px;
+    left: 147px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+.percentCirclebgPositionFour {
+    background: url("/static/front/images/transparent.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    left: 200px;
+    position: absolute;
+    top: -6px;
+    width: 20px;
+}
+
+.accountpopList {
+    background: none repeat scroll 0 0 padding-box #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    left: 30px;
+    top: 35px;
+    z-index: 39;
+}
+.accountpopList:after {
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid rgba(0, 0, 0, 0);
+    border-right: 6px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+.accountpopList li {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    width: 130px;
+}
+.accountpopList li:hover {
+    background: none repeat scroll 0 0 #329ddc;
+    border-radius: 2px;
+    color: #ffffff;
+}
+.accountpopList li:hover a {
+    color: #ffffff;
+}
+.accountpopList li:hover a .securitybgnew:hover {
+    background: url("/static/front/images/icon_new.png") no-repeat scroll -242px 3px transparent;
+}
+.accountpopList li a {
+    color: #656d78;
+    font-size: 16px;
+    height: 20px;
+    padding-left: 30px;
+    width: 20px;
+}
+.accountpopList li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.accountpopList li a.securitybgnew {
+    background: url("/static/front/images/icon_new.png") no-repeat scroll 0 3px transparent;
+}
+.accountpopList li a.securitybgnew:hover {
+    background: url("/static/front/images/icon_new.png") no-repeat scroll -242px 3px transparent;
+}
+
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop {
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    right: 9px;
+    top: -5px;
+    z-index: 38;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #d6d6d6;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 1px 8px #333333;
+    float: left;
+    margin: 5px 0 10px;
+    position: relative;
+    width: 172px;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li {
+    color: #565c66;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+    padding-left: 20px;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li:hover {
+    background: none repeat scroll 0 0 #dcdfe2;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li:hover a {
+    color: #565c66;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li a {
+    color: #565c66;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.nav1 .nav1-sub .nav-quick .rightArea .accountpop .mycoinmenu li a:hover {
+    text-decoration: none;
+}
+.trade {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 0 -293px transparent;
+}
+.acountManage {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 0 -443px transparent;
+}
+.basicSetting {
+    background: url("/static/front/images/new_v1/icon1.png?2") no-repeat scroll 0 -1817px transparent;
+}
+.questionAnswer1 {
+    background: url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0 -1740px transparent;
+}
+.bannerSecurity {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 10px -658px transparent;
+}
+.bannerTradeContent {
+    background: url("/static/front/images/new_v1/icon1.png?6") no-repeat scroll 0 -1898px transparent;
+}
+.bannerAccount {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 10px -688px transparent;
+}
+.bannerApi {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 13px -1456px transparent;
+}
+.bannerQuestion {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 13px -1126px transparent;
+}
+.bannerQuestionList {
+    background: url("/static/front/images/new_v1/icon1.png") no-repeat scroll 13px -1156px transparent;
+}
+.bannerFaq {
+    background: url("/static/front/images/new_v1/icon1.png?11") no-repeat scroll 13px -2575px transparent;
+}
+.bannerForum {
+    background: url("/static/front/images/new_v1/icon1.png?11") no-repeat scroll 13px -2597px transparent;
+}
+.bannerPhone {
+    background: url("/static/front/images/new_v1/icon1.png?11") no-repeat scroll 13px -2618px transparent;
+}
+.loginOut {
+    background: url("/static/front/images/new_v1/icon1.png?1") no-repeat scroll 0 -1773px transparent;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+/***二级按钮***/
+.newSecondTitle {
+	
+	font-size:14px;
+
+}
+
+
+.newSecondTitle a{
+	
+	display:inline-block;
+	
+	padding:0px 10px;
+	
+	text-align:center;
+	
+	border-radius:3px;
+	
+	color:#444444;
+	
+	float:left;
+
+}
+
+
+
+.newSecondTitle a.cur{
+	
+	background:#329ddc;
+	
+	color:#ffffff;
+
+}
+
+
+
+.newSecondTitle a:hover{
+	
+	text-decoration:none;
+	
+	background:#CBE9F1;
+
+}
+
+.selecttab-box1 .cur a.otherBoxTitle{
+	
+	background:none repeat scroll 0 0 #ffffff;
+	
+	_background:none repeat scroll 0 0 #ffffff;
+	
+	color:#1478c8;
+	
+	outline:none;
+	
+	text-decoration:none;
+	
+	float:left;
+	
+	border-top:1px solid #C3C1C1;
+	
+	border-left:1px solid #C3C1C1;
+	
+	border-right:1px solid #C3C1C1;
+		
+	padding:6px 10px 5px 10px;
+	
+	_padding:6px 10px 5px 10px;
+
+}
+
+
+
+.selecttab-box1 .cur a.otherBoxTitleNew{
+	
+	background:none repeat scroll 0 0 #329DDC;
+	
+	color:#ffffff;
+	
+	outline:none;
+	
+	text-decoration:none;
+	
+	float:left;
+	
+	padding:6px 10px 5px 10px;
+	
+	_padding:6px 10px 5px 10px;
+
+}

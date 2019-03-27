@@ -1,0 +1,15 @@
+/*** 公共弹窗 ***/
+.box_bg{ width:100%; height:100%; background:#000; filter: Alpha(opacity=60); -moz-opacity: 0.6; -khtml-opacity: 0.6; opacity: 0.6; position:absolute; z-index:9998; position:fixed; left:0; top:0; z-index: 9998;}
+.box_common{ width:500px; height:320px; position:fixed; left:50%; top:50%; margin:-160px 0 0 -250px; background:#fff; z-index:9999;}
+.box_common p{ font-size:20px; color:#666; text-align:center; padding:30px 20px 10px 20px; height:200px; width:460px; display:table-cell; vertical-align:middle;}
+.box_common .box_btn{ width:360px; margin:0 auto;}
+.box_common .box_btn a{ display:block; width:160px; height:40px; text-align:center; line-height:40px; font-size:14px; color:#fff; text-decoration:none;}
+.box_common .box_btn a:hover{ text-decoration:none;}
+.box_common .box_btn .no{ background:#f00;}
+.box_common .box_btn .no:hover{background:#ba0000;}
+.box_common .box_btn .yes{ background:#690;}
+.box_common .box_btn .yes:hover{ background:#4b7100;}
+.box_common .box_close{ height:24px; line-height:24px; width:24px; text-align:center; font-size:14px; color:#999; border-radius:20px; position:absolute; top:10px; right:10px; text-decoration:none; font-family:Arial;}
+.box_common .box_close:hover{ color:#fff; background:#f00; text-decoration:none;}
+.box_common .box_btn .middle{ width:160px; margin:0 auto;}
+/******/

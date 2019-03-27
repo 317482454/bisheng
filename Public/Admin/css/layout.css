@@ -1,0 +1,6 @@
+html,body,table,tr,td,th,tbody,div,span,a,img,ul,li{padding:0px;margin:0px;}
+table{width:100%;}
+th{font-size:12px;text-align:left;padding:3px;}
+td{background:#fff;padding:3px;font-size:12px;border-bottom:1px dotted #ccc;}
+ul{line-height:30px;list-style:none;}
+li{border-bottom:1px dotted #ccc;}

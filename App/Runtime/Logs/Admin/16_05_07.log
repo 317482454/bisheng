@@ -1,0 +1,2226 @@
+[ 2016-05-07T19:06:15+08:00 ] 171.217.100.88 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-05-07T19:06:22+08:00 ] 171.217.100.88 /admin/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yang_admin` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( username='123123' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-05-07T19:06:23+08:00 ] 171.217.100.88 /admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yang_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000803s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 243 行.
+NOTIC: [8] Undefined variable: empty D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 260 行.
+NOTIC: [8] Use of undefined constant mysqlnd - assumed 'mysqlnd' D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 323 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.211212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.211297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-05-07T19:07:20+08:00 ] 171.217.100.88 /admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-05-07T19:07:35+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-05-07T19:07:40+08:00 ] 180.153.201.216 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+
+[ 2016-05-07T19:07:41+08:00 ] 180.153.201.216 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-05-07T19:07:46+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveEntrance
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-05-07T19:07:55+08:00 ] 171.217.100.88 /admin/Config/customerService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000668s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000738s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-05-07T19:07:59+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-05-07T19:08:09+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDbPwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-05-07T19:08:12+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:08:18+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:08:31+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:08:34+08:00 ] 171.217.100.88 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:08:41+08:00 ] 171.217.100.88 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:08:55+08:00 ] 171.217.100.88 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:12:54+08:00 ] 171.217.100.88 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:12:56+08:00 ] 171.217.100.88 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:22:26+08:00 ] 106.6.189.165 /admin/Fileconfigoperation/saveDb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:22:38+08:00 ] 106.6.189.165 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:22:44+08:00 ] 106.6.189.165 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:23:58+08:00 ] 106.6.189.165 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:25:50+08:00 ] 223.104.170.92 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:25:58+08:00 ] 106.6.189.165 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:27:40+08:00 ] 60.10.71.13 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:28:48+08:00 ] 60.10.71.13 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T19:32:26+08:00 ] 223.104.170.92 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-07T20:28:12+08:00 ] 171.34.246.150 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+
+[ 2016-05-07T20:28:13+08:00 ] 171.34.246.150 /admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-05-07T20:28:17+08:00 ] 171.34.246.150 /admin/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-05-07T20:28:18+08:00 ] 171.34.246.150 /admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000803s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 243 行.
+NOTIC: [8] Undefined variable: empty D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 260 行.
+NOTIC: [8] Use of undefined constant mysqlnd - assumed 'mysqlnd' D:\WWW\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 323 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-05-07T20:28:38+08:00 ] 171.34.246.150 /admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_admin` LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-05-07T20:28:43+08:00 ] 171.34.246.150 /admin/Manage/delMember/admin_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `yang_admin` WHERE `admin_id` = 5 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-05-07T20:28:50+08:00 ] 171.34.246.150 /admin/Manage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_admin` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_admin` LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-05-07T20:32:50+08:00 ] 171.34.246.150 /admin/Art/helpindex/article_category_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 ORDER BY add_time desc,sort LIMIT 0,20   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: inquire D:\WWW\App\Admin\Controller\ArtController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-05-07T20:32:51+08:00 ] 171.34.246.150 /admin/Art/helpindex/article_category_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 ORDER BY add_time desc,sort LIMIT 0,20   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: inquire D:\WWW\App\Admin\Controller\ArtController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-05-07T20:33:24+08:00 ] 171.34.246.150 /admin/Art/insert/article_category_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: article_id D:\WWW\App\Admin\Controller\ArtController.class.php 第 139 行.
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000887s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 248 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 269 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 270 行.
+NOTIC: [8] Undefined variable: article_category D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 284 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-05-07T20:39:04+08:00 ] 171.34.246.150 /admin/Art/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `yang_article` (`title`,`content`,`position_id`,`add_time`,`sign`) VALUES ('币胜网注册指南','<p class=\"MsoNormal\" style=\"margin-left:18.0pt;text-indent:-18.0pt;\">
+	<span>1.     </span>打开币胜网首页（<span><a href=\"http://www.91bisheng.com/\">www.91bisheng.com</a></span>），点击注册或免费注册，进入注册页面，注册新账号或绑定已有账号。<span></span>
+</p>
+<p class=\"MsoNormal\">
+	<span> <img src=\"/Public/kindeditor/attached/image/20160507/20160507203649_51382.png\" alt=\"\" /></span>
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	<br />
+</p>
+<p class=\"MsoNormal\" style=\"margin-left:18.0pt;text-indent:-18.0pt;\">
+	<span>2.     </span>填写常用的电子邮箱（用于登录和找回密码）、登录密码（需设置<span>6</span>位以上）、邀请码，并仔细阅读，《注册协议》，点击【下一步】<span></span>
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	<img border=\"0\" width=\"430\" height=\"247\" src=\"/Public/kindeditor/attached/image/20160507/20160507203812_50663.png\" />
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>
+<p class=\"MsoNormal\" style=\"margin-left:18.0pt;text-indent:-18.0pt;\">
+	<span>3.     </span>填写交易密码（填写<span>6</span>位以上，且与登录密码不同），确认后点击【下一步】。<span></span>
+</p>
+<p class=\"MsoNormal\">
+	<br />
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	<img border=\"0\" width=\"432\" height=\"252\" src=\"/Public/kindeditor/attached/image/20160507/20160507203829_56549.png\" />
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\" style=\"margin-left:18pt;text-indent:-18pt;\">
+	4.  根据国家相关规定，币胜网对注册用户进行实名登记。
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	请选择证件类型（系统默认身份证，可选择护照、军官证、港澳通行证等），输入
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	用户真实的证件信息后（证件信息注册后不可修改），点击【下一步】
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	注：提现时银行卡信息需与填写的身份信息一致，请填写真实身份信息，以免带来
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	不便
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	 
+</p>
+<p class=\"MsoNormal\" align=\"left\">
+	5.注册成功。登录账户后即可直接进行充值并交易。
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>
+<p class=\"MsoNormal\">
+	<span> </span>
+</p>','60','1462624744','0') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-05-07T20:39:07+08:00 ] 171.34.246.150 /admin/Art/helpindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 ORDER BY add_time desc,sort LIMIT 0,20   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: inquire D:\WWW\App\Admin\Controller\ArtController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-05-07T20:39:11+08:00 ] 171.34.246.150 /admin/Art/insert/article_category_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: article_id D:\WWW\App\Admin\Controller\ArtController.class.php 第 139 行.
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000752s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 248 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 269 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 270 行.
+NOTIC: [8] Undefined variable: article_category D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 284 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-05-07T20:43:12+08:00 ] 171.34.246.150 /admin/Art/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-05-07T20:43:13+08:00 ] 171.34.246.150 /admin/Art/%E8%BF%85%E9%9B%B7%E5%BF%AB%E4%BC%A0-%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E6%9C%AA%E8%83%BD%E6%89%BE%E5%88%B0%E6%82%A8%E6%83%B3%E8%A6%81%E7%9A%84%E9%A1%B5%E9%9D%A2_files/r.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-05-07T20:43:33+08:00 ] 171.34.246.150 /admin/Art/helpindex/article_category_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 ORDER BY add_time desc,sort LIMIT 0,20   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: inquire D:\WWW\App\Admin\Controller\ArtController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000689s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000760s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-05-07T20:43:37+08:00 ] 171.34.246.150 /admin/Art/insert/article_category_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0004s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: article_id D:\WWW\App\Admin\Controller\ArtController.class.php 第 139 行.
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 239 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 248 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 269 行.
+NOTIC: [8] Undefined variable: list D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 270 行.
+NOTIC: [8] Undefined variable: article_category D:\WWW\App\Runtime\Cache\Admin\903db4826134760017f613db5b0ede4e.php 第 284 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-05-07T20:43:56+08:00 ] 171.34.246.150 /admin/Art/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `yang_article` (`title`,`content`,`position_id`,`add_time`,`sign`) VALUES ('币胜网交易指南','<p class=\"MsoNormal\" style=\"margin-left:18pt;text-indent:-18pt;\">
+	1.     充币登录币胜网账号→【我的账号】→丘特币右手边【充值】将丘特币转入您币胜网的丘特币地址。
+</p>
+<p class=\"MsoNormal\">
+	注：每种币的地址都是唯一的，要对应币种地址充值。否则无法到账。比如说丘特币，不能用冲进其他币的地址里。且充币地址一定要是自己账号里的地址，地址相当于自己的银行卡卡号。
+</p>
+<p class=\"MsoNormal\">
+	<img src=\"http://www.91bisheng.com/Public/kindeditor/attached/image/20160507/20160507204235_57738.png\" alt=\"\" /><img src=\"http://www.91bisheng.com/Public/kindeditor/attached/image/20160507/20160507204236_66966.png\" alt=\"\" />
+</p>
+<p class=\"MsoNormal\">
+	 
+</p>
+<p class=\"MsoNormal\">
+	币到账后在【我的账户】丘特币里显示。若没有显示，请刷新一下。
+</p>
+<p class=\"MsoNormal\">
+	 
+</p>
+<p class=\"MsoNormal\" style=\"margin-left:18pt;text-indent:-18pt;\">
+	2.     提币先绑定提币地址，成功后向这个地址提币。绑定提币地址。点击丘特币【提币】】→【点击添加一个新的提币地址】】→填写地址标签和提币地址】→【确认】系统会发短信告知验证码→输入验证码并【确认】
+</p>
+<p class=\"MsoNormal\">
+	<img width=\"434\" height=\"79\" src=\"http://www.91bisheng.com/Public/kindeditor/attached/image/20160507/20160507204255_42577.png\" />
+</p>
+<p class=\"MsoNormal\">
+	提币地址绑定成功后，选择这个地址，输入提币数额、交易密码，然后【确认提币】即可。如果下次还向绑定的这个地址提币，不需要再绑定，直接按此操作即可。注：不同数字货币提币续费不同，每种币在提币操作界面都有显示。币胜网的丘特币的提币⼿续费为0.1%，请仔细核实再操作。
+</p>
+<p class=\"MsoNormal\">
+	<img width=\"434\" height=\"111\" src=\"http://www.91bisheng.com/Public/kindeditor/attached/image/20160507/20160507204310_32972.png\" />
+</p>
+<p class=\"MsoNormal\">
+	币胜网每一种提币下面都有转出（提币）记录。新绑定地址⾸次提币，需要人工审核，当转出记录中的状态由【处理中】转为【成功】，说明该笔币已成功转出币胜网。
+</p>','61','1462625036','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-07T20:43:58+08:00 ] 171.34.246.150 /admin/Art/helpindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8192] Function eregi() is deprecated D:\WWW\App\Common\Common\function.php 第 619 行.
+SQL: SELECT * FROM `yang_config`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yang_dividend_config`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article` WHERE ( position_id = 7 ) LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: USER_KEY_ID D:\WWW\App\Common\Controller\CommonController.class.php 第 77 行.
+SQL: SELECT * FROM `yang_currency` WHERE ( is_line=1  ) ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `key`,`value` FROM `yang_config`  [ RunTime:0.0005s ]
+SQL: SELECT `Nav` FROM `yang_admin` WHERE ( admin_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=9 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=14 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=26 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=27 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=33 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=43 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=46 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=49 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=50 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=56 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=57 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=59 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_nav` WHERE ( nav_id=60 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( parent_id = 6 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 60 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 61 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 62 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 63 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article_category` WHERE ( yang_article_category.parent_id = 64 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yang_article` INNER JOIN yang_article_category ON yang_article.position_id = yang_article_category.id  WHERE yang_article_category.parent_id = 6 ORDER BY add_time desc,sort LIMIT 0,20   [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: inquire D:\WWW\App\Admin\Controller\ArtController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000686s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+

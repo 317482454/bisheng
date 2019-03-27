@@ -1,0 +1,1 @@
+a:6:{i:0;s:2:"id";i:1;s:9:"member_id";i:2;s:5:"token";i:3;s:8:"add_time";s:3:"_pk";s:2:"id";s:5:"_type";a:4:{s:2:"id";s:7:"int(32)";s:9:"member_id";s:7:"int(32)";s:5:"token";s:12:"varchar(100)";s:8:"add_time";s:11:"varchar(20)";}}

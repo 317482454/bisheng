@@ -1,0 +1,171 @@
+/*** coin ***/
+.coin{ width:100%; background:#ffd633;}
+.coin_banner{ width:1000px; margin:0 auto; background:url(../images/coin_top.jpg) no-repeat; height:260px; position:relative;}
+.coin_banner .volume{ width:256px; position:absolute; right:0; top:25px;}
+.coin_banner .volume ul li{ width:225px; height:38px; line-height:38px; color:#333; margin:0 auto;}
+.coin_banner .volume ul li .number{ color:#f60;}
+.news_coin a{ display:block; height:40px; width:256px; border-radius:5px; background:#f70; color:#fff; font-size:14px; text-align:center; line-height:40px; text-decoration:none; margin-top:20px;}
+.news_coin a:hover{ background:#f60;}
+.coinarea{ width:1000px;}
+.coinarea .for_coin{ height:42px; margin-top:20px;}
+.coinarea .for_coin li{ float:left; width:120px; text-align:center; height:42px; line-height:42px; margin-right:5px;}
+.coinarea .for_coin li a{ display:block; height:42px; text-decoration:none; color:#333; font-size:16px;}
+.coinarea .for_coin li a:hover{ color:#f60;}
+.coinarea .for_coin li .current{ color:#f60; background:url(../images/forcoin_bg.jpg) no-repeat; height:42px;}
+.coinarea .bgcolor{ border-top:2px solid #ccc; margin-top:-2px; _border:0; _margin-top:0px;}
+.coinarea .coin_list{ width:1000px;}
+.coinarea .coin_list thead tr{ height:40px; color:#333;}
+.coinarea .coin_list thead tr th{ padding-right:10px; text-align:right; background:#eee; font-size:12px;}
+/*.coinarea .coin_list thead tr .header{ background:#eee url(../images/bg.gif) center right no-repeat; cursor: pointer;}
+.coinarea .coin_list thead tr .headerSortDown{ background: url(../images/desc.gif);}
+.coinarea .coin_list thead tr .headerSortUp{ background: url(../images/asc.gif);}*/
+.coinarea .coin_list tbody tr:hover{ background:#f6f6f6;}
+.coinarea .coin_list tbody tr td{ border-bottom:1px solid #f2f2f2; height:40px; text-align:right; font-size:14px;}
+.coinarea .coin_list tbody tr td a{ display:block; color:#333; text-decoration:none; padding-right:10px; height:40px; line-height:40px;}
+.coinarea .coin_list tbody tr td .buy{ color:#f60;}
+.coinarea .coin_list tbody tr td .sell{ color:#3c0;}
+.coinarea .coin_list tbody .coin_num .coin_name{ text-align:left; font-weight:bold; color:#333;}
+.coinarea .coin_list tbody .coin_num td img{ margin-top:10px;}
+
+#tags_coin #tags li { float: left; width:120px;}
+#tags_coin #tags li a{ display:block; height:42px; text-decoration:none; color:#333; font-size:16px; background:none; width:120px; cursor:pointer;}
+#tags_coin #tags li.selectTag a{ color:#f60; background:url(../images/forcoin_bg.jpg) center top no-repeat; height:42px;}
+.tagContent{ display:none;}
+#tagContent div.selectTag { display: block;}
+
+.risk{ width:1000px; margin:0 auto; color:#666; font-size:14px;  border:1px solid #eee; border-radius:5px; height:60px; margin-top:30px; background:#f8f8f8;}
+.risk .risk_tishi{ width:100px; height:60px; line-height:60px; font-size:16px; background:#f60; color:#fff; text-align:center;  border-radius:4px 0 0 4px;}
+.risk .risk_con{ width:878px; line-height:20px; padding:10px 10px 0 10px;}
+.risk .risk_con a{ margin:0 5px; color:#f60; text-decoration:none;}
+.risk .risk_con a:hover{ text-decoration:underline;}
+
+/*** ±Ò±Ò½»Ò×ÏêÏ¸Ò³Ãæ ***/
+.total_top{ width:100%; background:#fff; padding:20px 0; margin-bottom:30px; border-bottom:1px dotted #ddd;}
+.price{ width:1000px; margin:0 auto; font-size:14px; line-height:22px; color:#333;}
+.price .coin_coin{ font-size:16px; line-height:24px;}
+.price span{ font-size:20px; color:#000;}
+.now_price li{ float:left; line-height:22px; margin-left:30px; font-size:14px; color:#888;}
+.now_price li span{ font-size:20px; color:#000;}
+.now_price li .money{ color:#f60; line-height:22px; font-size:22px;}
+.now_price li .sell{ color:#3c0;}
+.now_price li .buy{ color:#f60;}
+.k_img{ border:1px solid #e2e2e2; background:#fff; padding-top:5px;}
+.my_coin{ border:1px solid #e2e2e2; padding:15px 0 15px 20px; margin:30px 0; font-size:14px; color:#666; background:#fff;}
+.my_coin p a{ color:#333; text-decoration:underline;}
+.my_coin p a:hover{ color:#f60;}
+.my_coin ul{ height:24px;}
+.my_coin ul li{ float:left; width:172px; line-height:24px; color:#666;}
+.pay{ width:658px; border:0; background:none;}
+.pay .buysell{ padding:0; margin:0;}
+.pay .buysell .buyformarea{ width:312px; border:1px solid #e2e2e2; background:#fff;}
+.buyformarea .buy{ color:#e00; padding:10px 20px 20px 20px; font-size:20px;}
+.buyformarea .sell{ color:#558000; padding:10px 20px 20px 20px; font-size:20px;}
+.sellform li .buy{ color:#e00; font-size:16px; padding:0; font-weight:normal;}
+.sellform li .sell{ color:#690; font-size:16px; padding:0; font-weight:normal;}
+.sellform li label{ width:90px;}
+.sellform li{ height:30px; line-height:30px;}
+.sellform li input{ height:24px; line-height:24px; width:190px; vertical-align:middle;}
+.sellform li span{ font-size:12px; color:#999;}
+
+.sellform .submit{width:260px; margin-left:25px; height:40px; background:#ff0000;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform .submit:hover{ background:#ba0000;}
+.sellform2 .submit{width:260px; margin-left:25px; height:40px; background:#690;font-size:18px;color:#fff;cursor:pointer; border:none;border-radius:5px; font-family:"Î¢ÈíÑÅºÚ";}
+.sellform2 .submit:hover{background:#4b7100;}
+.sellform .tishi{ color:#f00; line-height:24px; padding-left:15px;}
+
+.my_title{ background:#e2e2e2; height:28px;}
+.my_title li{ float:left; text-align:center; line-height:28px; font-weight:bold; color:#333;}
+.my_record{ max-height:140px; _height:170px; overflow-y:scroll; background:#fff;}
+.record{ max-height:806px; overflow-y:scroll; background:#fff;}
+.record_list{ width:638px; background:#fff;}
+.record_title{ background:#e2e2e2; height:28px;}
+.record_title li{ float:left; height:28px; line-height:28px; width:107px; padding-left:20px; text-align:left; font-weight:bold; color:#333;}
+.record_list{ width:638px; background:#fff;}
+.record_list .list_con1{ background:#fff;}
+.record_list .list_con2{ background:#f6f6f6;}
+.record_list tr,.record_list tr{ height:28px;}
+.record_list tr td,.record_list tr th{ width:107px; height:28px; border:none; text-align:left; padding-left:20px;}
+.weituo tr td{ height:28px; border-bottom:0; text-align:left; padding-left:10px;}
+.weituo tr{ height:28px;}
+.weituo .list_con1{ background:#fff;}
+.weituo .list_con2{ background:#f6f6f6;}
+.weituo tr .sell{ color:#690;}
+.weituo tr .buy{ color:#e00;}
+.weituo tr .left_sell{ width:80px; text-align:center; padding-left:0;}
+.weituo tr .left_buy{ width:70px;}
+.weituo tr th{ border-bottom:2px solid #d2d2d2; text-align:left; padding-left:10px;}
+.weituo tr .buy40{ width:40px;}
+.weituo tr .buy60{ width:60px; text-align:center; padding-left:0;}
+.weituo tr .buy80{ width:80px;}
+.weituo tr td .buySpan{ display:block; height:15px; background:#f88; margin-right:3px;}
+.weituo tr td .sellSpan{ display:block; height:15px; background:#a4c85d; margin-right:3px;}
+
+.more_coin{ width:310px;  margin-top:30px; height:48px;}
+.more_coin a{ display:block; width:200px; margin:0 auto; border-radius:5px; background:#f70; color:#fff; font-size:16px; text-align:center; height:48px; line-height:48px; text-decoration:none;}
+.more_coin a:hover{ background:#f60; color:#fff;}
+/******/
+.abc_notice{ text-align:center; margin-top:10px;}
+.abc_notice a{ color:#333; font-size:14px; text-decoration:underline;display: block;}
+.abc_notice a:hover{ color:#f60;}
+
+/*** newpage ***/
+.coin_header{ width:1200px;}
+.ybcoin_banner{position:absolute; left:50%; margin-left:-960px; height:360px; background:#fbfaf8; border-bottom:1px solid #f2f2f2;}
+.ybcoin_banner .banner_area{ position:absolute; height:360px; overflow:hidden;top:0px;left:0px}
+.bannerbtn{ position:absolute; top:80px; right:50%; margin-right:-325px;}
+.registMBtn{margin-right:25px;}
+.ybcoin_banner #focus {width:1920px; margin:0 auto; height:360px; overflow:hidden; position:relative;}
+.ybcoin_banner #focus ul {height:360px; position:absolute;}
+.ybcoin_banner #focus ul li {float:left; width:1920px; height:360px; overflow:hidden; position:relative; background:#000;}
+.ybcoin_banner #focus ul li div {position:absolute; overflow:hidden;}
+.ybcoin_banner #focus .btnBg {position:absolute; width:1920px; height:20px; left:0; bottom:0;}
+.ybcoin_banner #focus .btn {position:absolute; width:1920px; height:12px; padding:8px 10px; right:0; bottom:0; text-align:center;}
+.ybcoin_banner #focus .btn span {display:inline-block; _display:inline; _zoom:1; width:12px; height:12px; border-radius:6px; _font-size:0; margin-left:15px; cursor:pointer; background:#fff;}
+.ybcoin_banner #focus .btn span.on {background:#fff;}
+.ybcoin_banner #focus .preNext{ display:none;}
+.ybcoin_volume{ position:absolute; left:50%; top:25px; margin-left:280px; width:260px; height:240px; background:rgba(0,0,0,0.3); padding:20px; z-index:100;}
+.ybcoin_volume ul li{ color:#fff; font-size:14px; line-height:38px; width:260px;}
+.ybcoin_volume ul li .number{ color:#ff0;}
+.ybcoin_volume ul li .number strong{ font-weight:normal; color:#ff0;}
+.ybcoin_volume .news_coin a{ display:block; width:260px; height:48px; line-height:48px; font-size:18px; color:#fff; background:#f60; border-radius:5px; text-align:center; margin-top:15px;}
+.ybcoin_volume .news_coin a:hover{ background:#f70;}
+
+.ybcoin_section{ width:1200px; margin:0 auto;}
+.ybcoin_section .coinarea{ width:850px;}
+.coin_news{ width:320px; margin-top:20px;}
+.coin_news .news_title{ border-bottom:1px solid #ccc; padding:11px 5px 11px 0; height:18px; line-height:18px;}
+.coin_news .news_title h2{ font-size:16px; font-weight:normal; border-left:4px solid #f70; padding-left:8px; color:#333;}
+.coin_news .news_title a{ color:#666;}
+.coin_news .news_title a:hover{ color:#f60; text-decoration:none;}
+.coin_news ul li{ padding:0 5px; height:32px; line-height:32px;}
+.coin_news ul li:hover{ background:#f6f6f6;}
+.coin_news ul li .coin_news_title{ width:260px; height:32px; line-height:32px; color:#666; font-size:14px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.coin_news ul li span{ color:#999;}
+
+/*coin_footer*/
+/*.coin_hint h2{ font-size:18px; height:30px; line-height:30px; font-weight:normal; color:#333; background:url(../images/ybc_hint.png) left center no-repeat; padding-left:25px; margin-bottom:10px;}
+.coin_hint p{ line-height:20px; color:#666;}
+.coin_footerbar{ width:100%; border-top:1px solid #eee; padding:30px 0;}
+.coin_footerbar .coin_footer_nav{ width:1200px; margin:0 auto;}
+.coin_nav{ width:200px; height:150px; border-left:1px solid #eee; padding-top:20px;}
+.coin_nav h2{ font-size:18px; font-weight:normal; margin-bottom:10px; padding-left:30px; color:#333;}
+.coin_nav ul{ padding-left:30px;}
+.coin_nav ul li{ height:24px; line-height:24px; font-size:14px; color:#666;}
+.coin_nav ul li a{ line-height:24px; font-size:14px; color:#666;}
+.coin_nav ul li a:hover{ color:#f60; text-decoration:none;}
+.coin_nav p{ text-align:center;}
+.coin_copy{ border:0; width:190px;}
+.coin_copy p{ color:#999;}
+.coin_copy img{ margin:40px 0 10px 0;}
+.coin_sina{ width:24px; height:24px; background:url(../images/coin_sina_logo.png) left top no-repeat; display:block; margin-left:8px;}
+.coin_sina:hover{ background-position:left -24px;}
+.coin_wei{ width:24px; height:24px; background:url(../images/coin_wei.png) left center no-repeat; display:block; margin-left:8px;}
+.coin_nav02{ width:300px; color:#666; font-size:14px;}
+.coin_nav02 .coin_phone400{ font-size:28px; color:#333; margin-top:10px;}
+.coin_nav02 .coin_phoneqq a{ display:block; width:110px; padding-left:20px; height:36px; font-size:18px; margin:10px auto; background:#f70 url(../images/ybc_phoneqq.png) 10px center no-repeat; border-radius:5px; color:#fff; line-height:36px;}
+.coin_nav02 .coin_phoneqq a:hover{ background:#f60 url(../images/ybc_phoneqq.png) 10px center no-repeat; text-decoration:none;}*/
+/**/
+/******/
+
+.coin_reg{ height:24px; line-height:24px; margin-top:12px;}
+.coin_reg a{ color:#fff;}
